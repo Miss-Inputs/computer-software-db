@@ -310,6 +310,11 @@
 			]
 		}
 	},
+	"Bubble Trouble [t unlimited lives]": {
+		"app_name": "Bubble Trouble (Unlimited Lives",
+		"notes": "App name is cut off because of HFS filename limitations. This is created by Game Doctor",
+		"parent": "Bubble Trouble"
+	},
 	"Buried in Time (demo)": {
 		"app_name": "Buried in Time™ Demo",
 		"creator_code": "PJ93",
@@ -471,6 +476,12 @@
 		"subgenre": "Level Editor",
 		"notes": "Scenario editor for Realmz"
 	},
+	"Divinity (demo)": {
+		"app_name": "Divinity (DEMO)",
+		"category": "Trials",
+		"notes": "Demo version included with shareware game",
+		"parent": "Divinity"
+	},
 	"Dollhouse Time": {
 		"app_name": "Dollhouse Time",
 		"creator_code": "Sand",
@@ -608,15 +619,16 @@
 		"arch": "68k",
 		"category": "Games"
 	},
-	"Frog Xing": {
-		"app_name": "Frog Xing 1.3",
-		"other_app_names": [
-			"Frog Xing 1.2"
-		],
+	"Frog Xing (1.2)": {
+		"app_name": "Frog Xing 1.2",
 		"creator_code": "QnFX",
 		"arch": "68k",
 		"category": "Games",
 		"clone_of": "Frogger"
+	},
+	"Frog Xing (1.3)": {
+		"app_name": "Frog Xing 1.3",
+		"parent": "Frog Xing (1.2)"
 	},
 	"Galaxis": {
 		"app_name": "Galaxis 1.2",
@@ -1000,13 +1012,8 @@
 		"arch": "68k",
 		"category": "Games"
 	},
-	"Royal Flush": {
-		"app_name": "Royal Flush 1.2.1",
-		"other_app_names": [
-			"Royal Flush 1.0",
-			"Royal Flush 1.2.1(68K)",
-			"Royal Flush 1.2.1(PPC)"
-		],
+	"Royal Flush (1.0)": {
+		"app_name": "Royal Flush 1.0",
 		"creator_code": "aXrF",
 		"arch": "68k",
 		"category": "Games",
@@ -1015,6 +1022,21 @@
 		"emu_compat": {
 			"basilisk_ii": false
 		}
+	},
+	"Royal Flush (1.2.1)": {
+		"app_name": "Royal Flush 1.2.1",
+		"arch": "fat",
+		"parent": "Royal Flush (1.0)"
+	},
+	"Royal Flush (1.2.1) (68K)": {
+		"app_name": "Royal Flush 1.2.1(68K)",
+		"arch": "68k",
+		"parent": "Royal Flush (1.0)"
+	},
+	"Royal Flush (1.2.1) (PPC)": {
+		"app_name": "Royal Flush 1.2.1(PPC)",
+		"arch": "ppc",
+		"parent": "Royal Flush (1.0)"
 	},
 	"Scarab of RA": {
 		"app_name": "Scarab of RA 1.4",
@@ -1052,7 +1074,11 @@
 		"category": "Applications",
 		"genre": "Game Utility"
 	},
-	"SimEarth": {
+	"SimEarth (Black & White)": {
+		"app_name": "SimEarth Black & White",
+		"parent": "SimEarth (Color)"
+	},
+	"SimEarth (Color)": {
 		"app_name": "SimEarth Color",
 		"creator_code": "MYCR",
 		"arch": "68k",
@@ -1219,5 +1245,10 @@
 		"creator_code": "PJ93",
 		"arch": "68k",
 		"category": "Games"
+	},
+	"Microsoft Help Runtime": {
+		"app_name": "Microsoft Help Run Time",
+		"creator_code": "MSH1",
+		"notes": "Unsure what this is exactly, but it's in Mavis Beacon 5, and has the same creator code as MegaSimpsonHomer which is a bit odd"
 	}
 }

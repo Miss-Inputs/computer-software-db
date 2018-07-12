@@ -760,5 +760,95 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Arctic Adventure Episode 2": {
+		"parent": "Arctic Adventure Episode 1",
+		"app_name": "AA2.EXE"
+	},
+	"Arctic Adventure Episode 3": {
+		"parent": "Arctic Adventure Episode 1",
+		"app_name": "AA3.EXE"
+	},
+	"Arctic Adventure Episode 4": {
+		"parent": "Arctic Adventure Episode 1",
+		"app_name": "AA4.EXE"
+	},
+	"Bio Menace Episode 2": {
+		"parent": "Bio Menace Episode 1",
+		"app_name": "menace2.bat"
+	},
+	"Bio Menace Episode 3": {
+		"parent": "Bio Menace Episode 1",
+		"app_name": "menace3.bat"
+	},
+	"Dark Ages Episode 2": {
+		"parent": "Dark Ages Episode 1",
+		"app_name": "DA2.EXE"
+	},
+	"Dark Ages Episode 3": {
+		"parent": "Dark Ages Episode 1",
+		"app_name": "DA3.EXE"
+	},
+	"Monuments of Mars Episode 2": {
+		"parent": "Monuments of Mars Episode 1",
+		"app_name": "MARS2.EXE"
+	},
+	"Monuments of Mars Episode 3": {
+		"parent": "Monuments of Mars Episode 1",
+		"app_name": "MARS3.EXE"
+	},
+	"Monuments of Mars Episode 4": {
+		"parent": "Monuments of Mars Episode 1",
+		"app_name": "MARS4.EXE"
+	},
+	"Realm of Thor": {
+		"parent": "Caves of Thor",
+		"app_name": "REALM.EXE",
+		"notes": "Episode 2 of Apogee Thor trilogy"
+	},
+	"Thor's Revenge": {
+		"parent": "Caves of Thor",
+		"app_name": "REVENGE.EXE",
+		"notes": "Episode 3 of Apogee Thor trilogy"
+	},
+	"Pharaoh's Tomb Episode 2": {
+		"parent": "Pharaoh's Tomb Episode 1",
+		"app_name": "PTOMB2.EXE"
+	},
+	"Pharaoh's Tomb Episode 3": {
+		"parent": "Pharaoh's Tomb Episode 1",
+		"app_name": "PTOMB3.EXE"
+	},
+	"Pharaoh's Tomb Episode 4": {
+		"parent": "Pharaoh's Tomb Episode 1",
+		"app_name": "PTOMB4.EXE"
+	},
+	"Trivia Whiz Volume 2": {
+		"parent": "Trivia Whiz Volume 1",
+		"app_name": "TW2.EXE"
+	},
+	"Trivia Whiz Volume 3": {
+		"parent": "Trivia Whiz Volume 1",
+		"app_name": "TW3.EXE"
+	},
+	"Trivia Whiz Volume 4": {
+		"parent": "Trivia Whiz Volume 1",
+		"app_name": "TW4.EXE"
+	},
+	"Trivia Whiz Volume 5": {
+		"parent": "Trivia Whiz Volume 1",
+		"app_name": "TW5.EXE"
+	},
+	"Word Whiz Volume 2": {
+		"parent": "Word Whiz Volume 1",
+		"app_name": "WW2.EXE"
+	},
+	"Word Whiz Volume 3": {
+		"parent": "Word Whiz Volume 1",
+		"app_name": "WW3.EXE"
+	},
+	"Word Whiz Volume 4": {
+		"parent": "Word Whiz Volume 1",
+		"app_name": "WW4.EXE"
 	}
 }

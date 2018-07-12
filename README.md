@@ -38,11 +38,40 @@ Generally if the game already has controls for a 4-button gamepad like this, tha
 
 ### Data structure thingo:
 
-Subject to change, but for now:
+Subject to change, but for now:  
 
 Every game is represented by an object:  
 Key: Display name of the game/app; stuff in brackets denotes different versions etc  
 Value: Object with some of these keys:  
+
+- parent: Another game in the list to copy all the values from, but you can override them. I'll demonstrate by example because that probably made no sense:  
+```
+"Cool game": {
+	"app_name": "COOLGAME.EXE",
+	"requires_cd": true,
+	"genre": "RPG",
+	"compat_notes": "blah"
+},
+"Cool game [CD fix]: {
+	"app_name": "COOLNOCD.EXE",
+	"requires_cd": false,
+	"parent": "Cool game"
+}
+```
+"Cool game" continues on as normal, but "Cool game [CD fix]" should be parsed so that it ends up like this:  
+```
+{
+	"app_name": "COOLNOCD.EXE",
+	"requires_cd": false,
+	"compat_notes": "blah",
+	"genre": "RPG",
+	"parent": "Cool game"
+}
+```
+
+I'm not good at examples, okay?  
+
+I realise this probably creates confusion with clone_of as below, so, uhh.... bugger. Didn't think that far ahead.  
 
 - creator_code: For Mac: creator code of the game/app; used for identification purposes
 - app_name: Actual filename of the game/app; used for identification purposes where creator_code is ambiguous

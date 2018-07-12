@@ -41,7 +41,7 @@ Generally if the game already has controls for a 4-button gamepad like this, tha
 Subject to change, but for now:
 
 Every game is represented by an object:  
-Key: Display name of the game/app; stuff in brackets denotes different versions etc
+Key: Display name of the game/app; stuff in brackets denotes different versions etc  
 Value: Object with some of these keys:  
 
 - creator_code: For Mac: creator code of the game/app; used for identification purposes

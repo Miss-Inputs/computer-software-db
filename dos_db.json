@@ -1,0 +1,816 @@
+[
+	{
+		"name": "Edit",
+		"app_name": "EDIT.EXE",
+		"category": "Applications",
+		"genre": "Text Editor",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "QBasic",
+		"app_name": "QBASIC.EXE",
+		"category": "Applications",
+		"genre": "IDE",
+		"subgenre": "Basic",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "robotfindskitten",
+		"app_name": "robotdos.exe",
+		"category": "Games",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"move_up": ["up_arrow", "dpad_up"],
+				"move_down": ["down_arrow", "dpad_down"],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"play_again": ["y", "primary_button"],
+				"exit": ["n", "secondary_button"]
+			}
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Second Reality",
+		"app_name": "SECOND.EXE",
+		"category": "Demos",
+		"compat_notes": "486 CPU & VGA graphics recommended, Sound Blaster/SB Pro/GUS sound",
+		"required_hardware": {
+			"free_ram": 570000,
+			"cpu": "386"
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "8088 Corruption",
+		"app_name": "8088_COR.EXE",
+		"category": "Demos",
+		"compat_notes": "CGA graphics; Sound Blaster Pro + Sound Blaster 2.0; designed for original IBM PC 5150 but may run on later",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "8088 Domination",
+		"app_name": "8088DOM.BAT",
+		"category": "Demos",
+		"compat_notes": "CGA graphics, Sound Blaster 1.5 or later",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Arctic Adventure Episode 1",
+		"app_name": "AA1.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Alien Carnage",
+		"app_name": "CARNAGE.EXE",
+		"category": "Games",
+		"notes": "Freeware release with patches from DOSBox team. Also known as Halloween Harry, not sure if that would have a different exe?",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"flamethrower": ["1", null],
+				"photon_cannon": ["2", null],
+				"missiles": ["3", null],
+				"grenades": ["4", null],
+				"micro_nukes": ["5", null],
+				"omegas": ["6", null],
+				"cycle_weapons": ["space", "aux_primary_button"],
+				"abort_game": ["escape", null],
+				"save": ["f2", null],
+				"restart_level": ["f10", null],
+				"toggle_display": ["r", null],
+				"toggle_turbo": ["t", null],
+				"pause": ["p", "start"],
+				"pan_camera_up": ["page_up", "right_stick_up"],
+				"pan_camera_up": ["page_down", "right_stick_down"],
+				"center_joystick": ["j", null],
+				"toggle_music": ["m", null],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"jump": ["up_arrow", "primary_button"],
+				"duck": ["down_arrow", "dpad_down"],
+				"jetpack_thrust": ["left_control", "aux_secondary_button"],
+				"fire": ["left_alt", "secondary_button"],
+				"help": ["f1", null]
+			}
+		},
+		"notes": "Joystick controls in case I decide to put those in the controls object: Movement as expected; button 1 = fire, button 2 = jetpack thrust, button 3 = cycle weapons, hold button 4 + up or down = pan camera. Toggle display is between radar (minimap) and weapons (ammo status)",
+		"compat_notes": "VGA graphics, recommends SB or SB Pro and 386 CPU; compatible with 2 or 4 button gamepad/joysticks and mouse",
+		"required_hardware": {
+			"free_ram": 573440,
+			"cpu": "286"
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Bio Menace Episode 1",
+		"app_name": "menace1.bat",
+		"category": "Games",
+		"notes": "Command line options: /COMP (SVGA compatibility), /LATCHPEL (ATI SVGA compat), /NOAL (Don't detect adlib), /NOJOYS (Don't detect joystick), /NOMOUSE (don't detect mouse, which is only used for menus)",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				
+			}
+		},
+		"compat_notes": "Mentions incompatibility with memory managers and adding STACKS=9,128 to CONFIG.SYS if lockups happen; recommends MS-DOS 6",
+		"required_software": {
+			"os": "dos",
+			"os_version": "3.3"
+		}
+	},
+	{
+		"name": "California Games",
+		"app_name": "CALGAMES.EXE",
+		"category": "Games",
+		"notes": "Ignore other .exe files in the game folder, those are individual game modes",
+		"genre": "Sports",
+		"subgenre": "Compilation",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "California Games II",
+		"app_name": "CGII.EXE",
+		"category": "Games",
+		"genre": "Sports",
+		"subgenre": "Compilation",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Dark Ages Episode 1",
+		"app_name": "DA1.EXE",
+		"category": "Games",
+		"compat_notes": "Uses Adlib sound, might work with other Adlib compatible sound cards too",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "God of Thunder",
+		"app_name": "GOT.EXE",
+		"category": "Games",
+		"notes": "Joystick controls: Movement = stick, throw hammer = button 1, use magic item = button 2. Arrow keys are also used for item selection and responses in conversation. Command line options: /NOAL = Don't detect Adlib, /NOSB = Don't detect Sound Blaster, /NOJOY = Don't detect joystick",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"move_up": ["up_arrow", "dpad_up"],
+				"move_down": ["down_arrow", "dpad_down"],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"throw_hammer": ["left_alt", "aux_primary_button"],
+				"use_magic_item": ["left_control", "secondary_button"],
+				"display_items": ["space", "select"],
+				"select_item": ["enter", "primary_button"],
+				"die": ["d", "aux_secondary_button"],
+			}
+		},
+		"compat_notes": "Original readme says Adlib for music and SB for sound effects; also VGA with 256KB VRAM. CPU support all the way up to Pentium",
+		"required_hardware": {
+			"free_ram": 522240,
+			"cpu": "286"
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Heros, a Super Hero Platform Game",
+		"app_name": "HEROS.EXE",
+		"category": "Games",
+		"compat_notes": "Readme mentions probably needing a slowdown utility, although copyright indicates this is from 1993 but I guess I'll take its word for it",
+		"required_hardware": {
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "I.M. Meen",
+		"app_name": "MEEN.BAT",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Jazz Jackrabbit",
+		"app_name": "JAZZ.EXE",
+		"category": "Games",
+		"notes": "Name is presumably the same for shareware version and full version. Joystick controls: Movement = left/right, look up = up, duck = down, jump = button 1, fire = button 2, cycle weapons = button 3 (or up + button 2 on 2-button joysticks). Does joystick work for moving forward in bonus stages?",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"jump", ["left_alt", "primary_button"],
+				"fire", ["space", "secondary_button"],
+				"roll", ["space", "secondary_button"],
+				"move_left", ["left_arrow", "dpad_left"],
+				"move_right", ["right_arrow", "dpad_right"],
+				"look_up", ["up_arow", "dpad_up"],
+				"duck", ["down_arrow", "dpad_down"],
+				"cycle_weapons", ["left_control", "aux_primary_button"],
+				"menu", ["escape", "select"],
+				"slow_motion", ["t", "left_shoulder"],
+				"pause", ["p", "start"],
+				"move_forward", ["up_arrow", "dpad_up"],
+				"adjust_detail_level", ["f1", "right_shoulder"]
+			}
+		},
+		"genre": "Run & Gun",
+		"compat_notes": "Menus seem to stutter in DOSBox (fixed in DOSBox-X), in-game seems fine though.Needs SB, SB16, SB Pro, Pro Audio Spectrum, or GUS for sound. Apparently HIMEM.SYS or EMM386 can slow things down, but disabling EMS in DOSBox config doesn't fix the stuttering",
+		"required_hardware": {
+			"free_ram": 2621440,
+			"cpu": "386",
+			"cpu_speed": 33
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Plumbers Don't Wear Ties",
+		"app_name": "SHOWTIME.EXE",
+		"category": "Games",
+		"min_players": 1,
+		"max_players": 1,
+		"genre": "Visual Novel",
+		"subgenre": "Interactive (Multiple Ending)",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Castle of Kroz",
+		"app_name": "CASTLE.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Caverns of Kroz",
+		"app_name": "CAVERNS.COM",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Caverns of Kroz 2",
+		"app_name": "CAVERNS.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Dungeons of Kroz",
+		"app_name": "DUNGEONS.COM",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Hints for Kroz",
+		"app_name": "KROZHINT.EXE",
+		"category": "Applications",
+		"genre": "Game Utility",
+		"subgenre": "Guide",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Kingdom of Kroz",
+		"app_name": "Kingdom.com",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Kingdom of Kroz 2",
+		"app_name": "KINGDOM.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "The Lost Adventures of Kroz",
+		"app_name": "LOST.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Shrine of Kroz",
+		"app_name": "SHRINE.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "The Final Crusade of Kroz",
+		"app_name": "CRUSADE.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Return to Kroz",
+		"app_name": "RETURN.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Temple of Kroz",
+		"app_name": "TEMPLE.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Landmark System Speed Test (6.00)",
+		"app_name": "SPEED600.EXE",
+		"category": "Applications",
+		"notes": "Command line: /b = Don't show help, /nv = Don't do initial video test, /q = No sound, /xx = Run for xx seconds then exit, e.g. /40 = run for 40 seconds",
+		"genre": "Benchmark",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "The Adventures of Maddog Williams in The Dungeons of Duridian",
+		"app_name": "MDWVGA.EXE",
+		"category": "Games",
+		"notes": "Freeware version disables copy protection, you can respond to the wizard asking you about manual things with anything",
+		"min_players": 1,
+		"max_players": 1,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Monuments of Mars Episode 1",
+		"app_name": "MARS1.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "One Must Fall: 2097",
+		"app_name": "OMF.EXE",
+		"category": "Games",
+		"notes": "Joystick controls: Jump = up, punch = button 1, kick = button 2, move left/right = left/right, kneel = down. Block by moving backwards. Might have local two-player?",
+		"controls": {
+			"player_1": {
+				"jump": ["up_arrow", "dpad_up"],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"kneel": ["down_arrow", "dpad_down"],
+				"punch": ["return", "primary_button"],
+				"kick": ["right_shift", "secondary_button"],
+				"chat_mode": ["left_alt + c", null],
+				"gameplay_options": ["left_alt + g", null]
+			}
+		},
+		"genre": "Fighting",
+		"subgenre": "Versus",
+		"compat_notes": "Modem, null modem cable, or IPX for network play; VGA graphics",
+		"required_hardware": {
+			"free_ram": 3670016,
+			"cpu": "386"
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Raiders of the Forbidden Mine",
+		"app_name": "RAIDERS.EXE",
+		"other_app_names": ["RAIDERS.COM"],
+		"category": "Games",
+		"notes": "Part of Adventure Fun-Pak. Also known as Raiders of the Lost Mine, Diamond Digger, and Gold Miner",
+		"genre": "Maze",
+		"subgenre": "Digging",
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Night Bomber",
+		"app_name": "BOMBER.COM",
+		"category": "Games",
+		"notes": "Part of Adventure Fun-Pak",
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Rogue Runner",
+		"app_name": "RUNNER.EXE",
+		"other_app_names": ["RUNNER.COM"],
+		"category": "Games",
+		"genre": "Maze",
+		"notes": "Part of Adventure Fun-Pak",
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "The Thing",
+		"app_name": "THING.COM",
+		"category": "Games",
+		"clone_of": "Hunt the Wumpus",
+		"notes": "Part of Adventure Fun-Pak",
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Asteroid Rescue",
+		"app_name": "ASTEROID.COM",
+		"category": "Games",
+		"notes": "Part of Puzzle Fun-Pak",
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Block Five",
+		"app_name": "BLOCK5.EXE",
+		"other_app_names": ["BLOCK5.COM"],
+		"category": "Games",
+		"genre": "Tabletop",
+		"subgenre": "Go",
+		"notes": "Part of Puzzle Fun-Pak",
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Maze Machine",
+		"app_name": "MAZE.COM",
+		"category": "Applications",
+		"genre": "Non-Computer Game Generator",
+		"notes": "Part of Puzzle Fun-Pak",
+		"compat_notes": "Can send resulting maze to printer",
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Phrase Master",
+		"app_name": "PHRASE.EXE",
+		"other_app_names": ["PHRASE.COM"],
+		"category": "Games",
+		"notes": "Part of Puzzle Fun-Pak",
+		"min_players": 2,
+		"max_players": 2,
+		"required_hardware": {
+			"cpu_speed": 4.77,
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Radix: Beyond the Void",
+		"app_name": "RADIX.EXE",
+		"category": "Games",
+		"notes": "Numbers 1-7 used for weapon select",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"pull_up": ["up_arrow", "dpad_up"],
+				"pull_down": ["down_arrow", "dpad_down"],
+				"bank_left": ["left_arrow", "dpad_left"],
+				"bank_right": ["right_arrow", "dpad_right"],
+				"fire": ["left_control", "primary_button"],
+				"plasma_bomb": ["space", "secondary_button"],
+				"speed_up": ["right_shift", "left_stick_up"],
+				"afterburner": ["/", "aux_secondary_button"],
+				"strafe_mode": ["left_alt", "left_shoulder"],
+				"back_view": ["return", "right_shoulder"],
+				"toggle_leveling": [".", "select"],
+				"switch_weapon": [",", "aux_primary_button"],
+				"help": ["f1", null],
+				"toggle_camera": ["f2", null],
+				"save": ["f3", null],
+				"load": ["f4", null],
+				"adjust_detail_level": ["f5", null],
+				"toggle_auto_adjust_detail": ["f6", null],
+				"quick_save": ["f7", null],
+				"toggle_auto_levelling": ["f8", null],
+				"quick_load": ["f9", null],
+				"gamma_correction": ["f10", null],
+				"mission_objectives": ["f11", null],
+				"increase_size": ["page_up", null],
+				"decrease_size": ["page_down", null],
+				"toggle_automap": ["tab", null],
+				"menu": ["esc", null],
+				"pause": ["pause_break", "start"]
+			}
+		},
+		"genre": "Rail Shooter",
+		"subgenre": "Flight",
+		"compat_notes": "VGA graphics; recommends 66MHz and 8MB RAM; uses modem for network; also mouse controls",
+		"required_hardware": {
+			"free_ram": 4194304,
+			"cpu": "486",
+			"cpu_speed": 33
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Sid Meier's Railroad Tycoon",
+		"app_name": "RRT.EXE",
+		"category": "Games",
+		"notes": "Freeware release (Deluxe 1.01) still includes copy protection referring to the manual, which is included as PDF",
+		"genre": "Simulation",
+		"compat_notes": "VGA graphics",
+		"required_hardware": {
+			"free_ram": 655360,
+			"cpu": "386",
+			"cpu_speed": 16
+		},
+		"required_software": {
+			"os": "dos",
+			"os_version": "5.0"
+		}
+	},
+	{
+		"name": "Retro City Rampage",
+		"app_name": "RCR.EXE",
+		"category": "Games",
+		"notes": "Included with Steam version",
+		"required_hardware": {
+			"free_ram": 4194304,
+			"cpu": "486"
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "RMCobol",
+		"app_name": "RMCOBOL.EXE",
+		"category": "Applications",
+		"genre": "Compiler",
+		"subgenre": "COBOL",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Sango Fighter",
+		"app_name": "SANGO.EXE",
+		"category": "Games",
+		"notes": "2010 release by Super Fighter Team",
+		"genre": "Fighting",
+		"subgenre": "Versus",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Sango Fighter 2",
+		"app_name": "SANGO2.EXE",
+		"category": "Games",
+		"notes": "2010 release by Super Fighter Team",
+		"genre": "Fighting",
+		"subgenre": "Versus",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "The Simpsons",
+		"app_name": "SIMPSONS.BAT",
+		"category": "Games",
+		"notes": "Port of arcade game",
+		"genre": "Beat'em up",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Supernova",
+		"app_name": "NOVA.COM",
+		"category": "Games",
+		"notes": "Includes source under GPL",
+		"genre": "Adventure",
+		"subgenre": "Text",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Major Stryker",
+		"app_name": "STRYKER.EXE",
+		"category": "Games",
+		"genre": "Shooter",
+		"subgenre": "Vertical",
+		"compat_notes": "EGA graphics",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Caves of Thor",
+		"app_name": "CAVES.EXE",
+		"category": "Games",
+		"genre": "Maze",
+		"required_hardware": {
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Beyond the Titanic",
+		"app_name": "BEYOND.COM",
+		"category": "Games",
+		"notes": "Includes source under GPL",
+		"genre": "Adventure",
+		"subgenre": "Text",
+		"compat_notes": "Needs a floppy drive to save",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Pharaoh's Tomb Episode 1",
+		"app_name": "PTOMB1.EXE",
+		"category": "Games",
+		"notes": "Freeware (3.0)",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Trivia Whiz Volume 1",
+		"app_name": "TW1.EXE",
+		"category": "Games",
+		"genre": "Quiz",
+		"required_hardware": {
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Word Whiz Volume 1",
+		"app_name": "WW1.EXE",
+		"category": "Game",
+		"notes": "Includes GPL source",
+		"genre": "Quiz",
+		"required_hardware": {
+			"for_xt": true
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Stargunner",
+		"app_name": "STARGUN.EXE",
+		"category": "Games",
+		"notes": "Joystick controls: Movement = up/down/left/right, fire = button 1, nuke = button 2 ",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"move_up": ["up_arrow", "dpad_up"],
+				"move_down": ["down_arrow", "dpad_down"],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"fire": ["left_control", "primary_button"],
+				"nuke": ["left_alt", "secondary_button"],
+				"pause": ["pause_break", "start"],
+				"quit": ["escape", null],
+				"help": ["f1", null],
+				"save": ["f2", null],
+				"load": ["f3", null],
+				"controls": ["f4", null],
+				"sound": ["f5", null],
+				"quick_save": ["f6", null],
+				"quick_load": ["f9", null],
+				"fast_exit": ["f10", null],
+				"brightness": ["f11", null],
+				"screenshot": ["print_screen", null],
+			}
+		},
+		"genre": "Shooter",
+		"subgenre": "Horizontal",
+		"compat_notes": "SB/GUS/PAS sound, VGA graphics w/256KB VRAM (SVGA w/1MB VRAM recommended), Pentium @ 90MHz w/ 16MB RAM recommended",
+		"required_hardware": {
+			"free_ram": 8388608,
+			"cpu": "486"
+		},
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	{
+		"name": "Supaplex (Speed Fix 6.4)",
+		"app_name": "spfix64.exe",
+		"category": "Games",
+		"clone_of": "Boulder Dash",
+		"notes": "Command line: *(10) to *(0): Set speed from slowest to fastest; *: Run at fastest speed; !(n): Use level set n; /(n): Enter level n without going through menu; &(n): Use player n; #: Set all levels playable as though they were skipped without touching player list or high scores; s: Shake screen for all explosions; n: Never shake screen; d: Force debug mode; m: Noclip in debug mode; c: Create level file if deleted; w: Use only SAVEGAME.SAV as saved game; e: Force EGA mode; h: Force original horizontal smooth scroll timing; r: Refresh video memory at end of each game; o: Record using original demo name; t: Allow original infinite dynamite cheat",
+		"min_players": 1,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"move_up": ["up_arrow", "dpad_up"],
+				"move_down": ["down_arrow", "dpad_down"],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"drop_dynamite": ["space", "primary_button"],
+				"eat": ["space", "secondary_button"],
+				"exit": ["escape", null],
+				"exit_completely": ["left_alt + x", null],
+				"display_dynamite_count": ["right_shift", "aux_primary_button"],
+				"recalibrate_joystick": ["j", null],
+				"pause": ["p", "start"],
+				"quick_save": ["left_control + w", null],
+				"quick_load": ["left_control + l", null],
+			}
+		},
+		"genre": "Maze",
+		"subgenre": "Digging",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+]

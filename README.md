@@ -40,7 +40,10 @@ Generally if the game already has controls for a 4-button gamepad like this, tha
 
 Subject to change, but for now:
 
-- name: Display name of the game/app; stuff in brackets denotes different versions etc
+Every game is represented by an object:  
+Key: Display name of the game/app; stuff in brackets denotes different versions etc
+Value: Object with some of these keys:  
+
 - creator_code: For Mac: creator code of the game/app; used for identification purposes
 - app_name: Actual filename of the game/app; used for identification purposes where creator_code is ambiguous
 - other_app_names: Other names of the game/app for identification purposes, such as other versions that work the same way

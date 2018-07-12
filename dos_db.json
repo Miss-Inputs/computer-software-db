@@ -1,6 +1,5 @@
-[
-	{
-		"name": "Edit",
+{
+	"Edit": {
 		"app_name": "EDIT.EXE",
 		"category": "Applications",
 		"genre": "Text Editor",
@@ -8,8 +7,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "QBasic",
+	"QBasic": {
 		"app_name": "QBASIC.EXE",
 		"category": "Applications",
 		"genre": "IDE",
@@ -18,8 +16,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "robotfindskitten",
+	"robotfindskitten": {
 		"app_name": "robotdos.exe",
 		"category": "Games",
 		"min_players": 1,
@@ -38,8 +35,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Second Reality",
+	"Second Reality": {
 		"app_name": "SECOND.EXE",
 		"category": "Demos",
 		"compat_notes": "486 CPU & VGA graphics recommended, Sound Blaster/SB Pro/GUS sound",
@@ -51,8 +47,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "8088 Corruption",
+	"8088 Corruption": {
 		"app_name": "8088_COR.EXE",
 		"category": "Demos",
 		"compat_notes": "CGA graphics; Sound Blaster Pro + Sound Blaster 2.0; designed for original IBM PC 5150 but may run on later",
@@ -60,8 +55,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "8088 Domination",
+	"8088 Domination": {
 		"app_name": "8088DOM.BAT",
 		"category": "Demos",
 		"compat_notes": "CGA graphics, Sound Blaster 1.5 or later",
@@ -69,16 +63,14 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Arctic Adventure Episode 1",
+	"Arctic Adventure Episode 1": {
 		"app_name": "AA1.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Alien Carnage",
+	"Alien Carnage": {
 		"app_name": "CARNAGE.EXE",
 		"category": "Games",
 		"notes": "Freeware release with patches from DOSBox team. Also known as Halloween Harry, not sure if that would have a different exe? Joystick controls in case I decide to put those in the controls object: Movement as expected; button 1 = fire, button 2 = jetpack thrust, button 3 = cycle weapons, hold button 4 + up or down = pan camera. Toggle display is between radar (minimap) and weapons (ammo status)",
@@ -121,17 +113,14 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Bio Menace Episode 1",
+	"Bio Menace Episode 1": {
 		"app_name": "menace1.bat",
 		"category": "Games",
 		"notes": "Command line options: /COMP (SVGA compatibility), /LATCHPEL (ATI SVGA compat), /NOAL (Don't detect adlib), /NOJOYS (Don't detect joystick), /NOMOUSE (don't detect mouse, which is only used for menus)",
 		"min_players": 1,
 		"max_players": 1,
 		"controls": {
-			"player_1": {
-				
-			}
+			"player_1": {}
 		},
 		"compat_notes": "Mentions incompatibility with memory managers and adding STACKS=9,128 to CONFIG.SYS if lockups happen; recommends MS-DOS 6",
 		"required_software": {
@@ -139,8 +128,7 @@
 			"os_version": "3.3"
 		}
 	},
-	{
-		"name": "California Games",
+	"California Games": {
 		"app_name": "CALGAMES.EXE",
 		"category": "Games",
 		"notes": "Ignore other .exe files in the game folder, those are individual game modes",
@@ -150,8 +138,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "California Games II",
+	"California Games II": {
 		"app_name": "CGII.EXE",
 		"category": "Games",
 		"genre": "Sports",
@@ -160,8 +147,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Dark Ages Episode 1",
+	"Dark Ages Episode 1": {
 		"app_name": "DA1.EXE",
 		"category": "Games",
 		"compat_notes": "Uses Adlib sound, might work with other Adlib compatible sound cards too",
@@ -169,8 +155,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "God of Thunder",
+	"God of Thunder": {
 		"app_name": "GOT.EXE",
 		"category": "Games",
 		"notes": "Joystick controls: Movement = stick, throw hammer = button 1, use magic item = button 2. Arrow keys are also used for item selection and responses in conversation. Command line options: /NOAL = Don't detect Adlib, /NOSB = Don't detect Sound Blaster, /NOJOY = Don't detect joystick",
@@ -198,8 +183,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Heros, a Super Hero Platform Game",
+	"Heros, a Super Hero Platform Game": {
 		"app_name": "HEROS.EXE",
 		"category": "Games",
 		"compat_notes": "Readme mentions probably needing a slowdown utility, although copyright indicates this is from 1993 but I guess I'll take its word for it",
@@ -210,16 +194,14 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "I.M. Meen",
+	"I.M. Meen": {
 		"app_name": "MEEN.BAT",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Jazz Jackrabbit",
+	"Jazz Jackrabbit": {
 		"app_name": "JAZZ.EXE",
 		"category": "Games",
 		"notes": "Name is presumably the same for shareware version and full version. Joystick controls: Movement = left/right, look up = up, duck = down, jump = button 1, fire = button 2, cycle weapons = button 3 (or up + button 2 on 2-button joysticks). Does joystick work for moving forward in bonus stages?",
@@ -253,8 +235,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Plumbers Don't Wear Ties",
+	"Plumbers Don't Wear Ties": {
 		"app_name": "SHOWTIME.EXE",
 		"category": "Games",
 		"min_players": 1,
@@ -265,40 +246,35 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Castle of Kroz",
+	"Castle of Kroz": {
 		"app_name": "CASTLE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Caverns of Kroz",
+	"Caverns of Kroz": {
 		"app_name": "CAVERNS.COM",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Caverns of Kroz 2",
+	"Caverns of Kroz 2": {
 		"app_name": "CAVERNS.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Dungeons of Kroz",
+	"Dungeons of Kroz": {
 		"app_name": "DUNGEONS.COM",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Hints for Kroz",
+	"Hints for Kroz": {
 		"app_name": "KROZHINT.EXE",
 		"category": "Applications",
 		"genre": "Game Utility",
@@ -307,64 +283,56 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Kingdom of Kroz",
+	"Kingdom of Kroz": {
 		"app_name": "Kingdom.com",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Kingdom of Kroz 2",
+	"Kingdom of Kroz 2": {
 		"app_name": "KINGDOM.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "The Lost Adventures of Kroz",
+	"The Lost Adventures of Kroz": {
 		"app_name": "LOST.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Shrine of Kroz",
+	"Shrine of Kroz": {
 		"app_name": "SHRINE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "The Final Crusade of Kroz",
+	"The Final Crusade of Kroz": {
 		"app_name": "CRUSADE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Return to Kroz",
+	"Return to Kroz": {
 		"app_name": "RETURN.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Temple of Kroz",
+	"Temple of Kroz": {
 		"app_name": "TEMPLE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Landmark System Speed Test (6.00)",
+	"Landmark System Speed Test (6.00)": {
 		"app_name": "SPEED600.EXE",
 		"category": "Applications",
 		"notes": "Command line: /b = Don't show help, /nv = Don't do initial video test, /q = No sound, /xx = Run for xx seconds then exit, e.g. /40 = run for 40 seconds",
@@ -373,8 +341,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "The Adventures of Maddog Williams in The Dungeons of Duridian",
+	"The Adventures of Maddog Williams in The Dungeons of Duridian": {
 		"app_name": "MDWVGA.EXE",
 		"category": "Games",
 		"notes": "Freeware version disables copy protection, you can respond to the wizard asking you about manual things with anything",
@@ -384,16 +351,14 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Monuments of Mars Episode 1",
+	"Monuments of Mars Episode 1": {
 		"app_name": "MARS1.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
 		}
 	},
-	{
-		"name": "One Must Fall: 2097",
+	"One Must Fall: 2097": {
 		"app_name": "OMF.EXE",
 		"category": "Games",
 		"notes": "Joystick controls: Jump = up, punch = button 1, kick = button 2, move left/right = left/right, kneel = down. Block by moving backwards. Might have local two-player?",
@@ -420,10 +385,11 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Raiders of the Forbidden Mine",
+	"Raiders of the Forbidden Mine": {
 		"app_name": "RAIDERS.EXE",
-		"other_app_names": ["RAIDERS.COM"],
+		"other_app_names": [
+			"RAIDERS.COM"
+		],
 		"category": "Games",
 		"notes": "Part of Adventure Fun-Pak. Also known as Raiders of the Lost Mine, Diamond Digger, and Gold Miner",
 		"genre": "Maze",
@@ -436,8 +402,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Night Bomber",
+	"Night Bomber": {
 		"app_name": "BOMBER.COM",
 		"category": "Games",
 		"notes": "Part of Adventure Fun-Pak",
@@ -449,10 +414,11 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Rogue Runner",
+	"Rogue Runner": {
 		"app_name": "RUNNER.EXE",
-		"other_app_names": ["RUNNER.COM"],
+		"other_app_names": [
+			"RUNNER.COM"
+		],
 		"category": "Games",
 		"genre": "Maze",
 		"notes": "Part of Adventure Fun-Pak",
@@ -464,8 +430,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "The Thing",
+	"The Thing": {
 		"app_name": "THING.COM",
 		"category": "Games",
 		"clone_of": "Hunt the Wumpus",
@@ -478,8 +443,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Asteroid Rescue",
+	"Asteroid Rescue": {
 		"app_name": "ASTEROID.COM",
 		"category": "Games",
 		"notes": "Part of Puzzle Fun-Pak",
@@ -491,10 +455,11 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Block Five",
+	"Block Five": {
 		"app_name": "BLOCK5.EXE",
-		"other_app_names": ["BLOCK5.COM"],
+		"other_app_names": [
+			"BLOCK5.COM"
+		],
 		"category": "Games",
 		"genre": "Tabletop",
 		"subgenre": "Go",
@@ -507,8 +472,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Maze Machine",
+	"Maze Machine": {
 		"app_name": "MAZE.COM",
 		"category": "Applications",
 		"genre": "Non-Computer Game Generator",
@@ -522,10 +486,11 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Phrase Master",
+	"Phrase Master": {
 		"app_name": "PHRASE.EXE",
-		"other_app_names": ["PHRASE.COM"],
+		"other_app_names": [
+			"PHRASE.COM"
+		],
 		"category": "Games",
 		"notes": "Part of Puzzle Fun-Pak",
 		"min_players": 2,
@@ -538,8 +503,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Radix: Beyond the Void",
+	"Radix: Beyond the Void": {
 		"app_name": "RADIX.EXE",
 		"category": "Games",
 		"notes": "Numbers 1-7 used for weapon select",
@@ -589,8 +553,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Sid Meier's Railroad Tycoon",
+	"Sid Meier's Railroad Tycoon": {
 		"app_name": "RRT.EXE",
 		"category": "Games",
 		"notes": "Freeware release (Deluxe 1.01) still includes copy protection referring to the manual, which is included as PDF",
@@ -606,8 +569,7 @@
 			"os_version": "5.0"
 		}
 	},
-	{
-		"name": "Retro City Rampage",
+	"Retro City Rampage": {
 		"app_name": "RCR.EXE",
 		"category": "Games",
 		"notes": "Included with Steam version",
@@ -619,8 +581,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "RMCobol",
+	"RMCobol": {
 		"app_name": "RMCOBOL.EXE",
 		"category": "Applications",
 		"genre": "Compiler",
@@ -629,8 +590,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Sango Fighter",
+	"Sango Fighter": {
 		"app_name": "SANGO.EXE",
 		"category": "Games",
 		"notes": "2010 release by Super Fighter Team",
@@ -640,8 +600,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Sango Fighter 2",
+	"Sango Fighter 2": {
 		"app_name": "SANGO2.EXE",
 		"category": "Games",
 		"notes": "2010 release by Super Fighter Team",
@@ -651,8 +610,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "The Simpsons",
+	"The Simpsons": {
 		"app_name": "SIMPSONS.BAT",
 		"category": "Games",
 		"notes": "Port of arcade game",
@@ -661,8 +619,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Supernova",
+	"Supernova": {
 		"app_name": "NOVA.COM",
 		"category": "Games",
 		"notes": "Includes source under GPL",
@@ -672,8 +629,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Major Stryker",
+	"Major Stryker": {
 		"app_name": "STRYKER.EXE",
 		"category": "Games",
 		"genre": "Shooter",
@@ -683,8 +639,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Caves of Thor",
+	"Caves of Thor": {
 		"app_name": "CAVES.EXE",
 		"category": "Games",
 		"genre": "Maze",
@@ -695,8 +650,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Beyond the Titanic",
+	"Beyond the Titanic": {
 		"app_name": "BEYOND.COM",
 		"category": "Games",
 		"notes": "Includes source under GPL",
@@ -707,8 +661,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Pharaoh's Tomb Episode 1",
+	"Pharaoh's Tomb Episode 1": {
 		"app_name": "PTOMB1.EXE",
 		"category": "Games",
 		"notes": "Freeware (3.0)",
@@ -716,8 +669,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Trivia Whiz Volume 1",
+	"Trivia Whiz Volume 1": {
 		"app_name": "TW1.EXE",
 		"category": "Games",
 		"genre": "Quiz",
@@ -728,8 +680,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Word Whiz Volume 1",
+	"Word Whiz Volume 1": {
 		"app_name": "WW1.EXE",
 		"category": "Game",
 		"notes": "Includes GPL source",
@@ -741,8 +692,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Stargunner",
+	"Stargunner": {
 		"app_name": "STARGUN.EXE",
 		"category": "Games",
 		"notes": "Joystick controls: Movement = up/down/left/right, fire = button 1, nuke = button 2 ",
@@ -781,8 +731,7 @@
 			"os": "dos"
 		}
 	},
-	{
-		"name": "Supaplex (Speed Fix 6.3)",
+	"Supaplex (Speed Fix 6.3)": {
 		"app_name": "spfix63.exe",
 		"category": "Games",
 		"clone_of": "Boulder Dash",
@@ -812,4 +761,4 @@
 			"os": "dos"
 		}
 	}
-]
+}

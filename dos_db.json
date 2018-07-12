@@ -782,8 +782,8 @@
 		}
 	},
 	{
-		"name": "Supaplex (Speed Fix 6.4)",
-		"app_name": "spfix64.exe",
+		"name": "Supaplex (Speed Fix 6.3)",
+		"app_name": "spfix63.exe",
 		"category": "Games",
 		"clone_of": "Boulder Dash",
 		"notes": "Command line: *(10) to *(0): Set speed from slowest to fastest; *: Run at fastest speed; !(n): Use level set n; /(n): Enter level n without going through menu; &(n): Use player n; #: Set all levels playable as though they were skipped without touching player list or high scores; s: Shake screen for all explosions; n: Never shake screen; d: Force debug mode; m: Noclip in debug mode; c: Create level file if deleted; w: Use only SAVEGAME.SAV as saved game; e: Force EGA mode; h: Force original horizontal smooth scroll timing; r: Refresh video memory at end of each game; o: Record using original demo name; t: Allow original infinite dynamite cheat",

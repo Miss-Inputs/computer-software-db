@@ -10,6 +10,32 @@ It's mainly intended for emulation, but I suppose you could use it for real hard
 
 It'll make sense when it's used, I guess.
 
+### Ideal control mapping
+
+Games should, ideally, be mapped so that they operate as follows:
+
+Text entry should be entered using a keyboard, so leave any text adventure games and whatnot alone
+
+Keyboards (or keyboard shortcuts, rather) are also acceptable for entering commands such as saving, loading, configuration, and things that aren't "in-game" as such
+
+Mice are for pointing at things, whether that be buttons/other GUI elements where the game uses them for actual game control, static objects (in a graphical adventure game), or onscreen enemies when it's something like a light gun game... you get the idea
+
+Mice are also acceptable as an alternative to an analog stick where the only analog stick available is too sensitive to be used for something like a paddle/dial control, but that should be up to the user.
+
+Everything else should be mapped to a gamepad... unless there's _a lot_ of buttons, then you'll have to figure out something clever yourself.
+
+Ideally, take note of the normal four-button layout that survives today, and with many methods of gamepad abstraction, is assumed to be how gamepads work (along with 2 shoulder buttons, 2 analog triggers, 2 analog sticks, a dpad, and start/select buttons). Think about how the user would use that ergonomically.
+
+This is why I refer to things like "primary_button" and "secondary_button", as they're where the user's thumb naturally rests and so these kinds of buttons can be pressed very easily. "aux_primary_button" and "aux_secondary_button" refer to buttons where the user might have to move their thumb a little bit, so ideally they're not buttons that they're pressing _all the time_, but they still need to access without thinking, if that makes sense.
+
+Shoulder buttons are sort of like additional auxillary buttons, but they're also used where you have a pair of left/right actions where the dpad is unsuitable (for ergonomic reasons, or because you might need to press both at the same time), e.g. pinball flippers.
+
+Directional movement should be mapped to the dpad rather than the analog stick, as should anything else that would require precision.
+
+Any kind of pause function (or something like a menu, if there's not pausing as such) should always be mapped to the start button.
+
+Generally if the game already has controls for a 4-button gamepad like this, that control scheme should be re-used, unless it objectively sucks. If it's been ported to a console like the NES, SNES, or PS1 that has a controller which is trivialably mappable to our abstracted gamepad (and the game does indeed work the same way), the control scheme from that version could work in most cases too.
+
 ### Data structure thingo:
 
 Subject to change, but for now:

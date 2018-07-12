@@ -81,7 +81,7 @@
 		"name": "Alien Carnage",
 		"app_name": "CARNAGE.EXE",
 		"category": "Games",
-		"notes": "Freeware release with patches from DOSBox team. Also known as Halloween Harry, not sure if that would have a different exe?",
+		"notes": "Freeware release with patches from DOSBox team. Also known as Halloween Harry, not sure if that would have a different exe? Joystick controls in case I decide to put those in the controls object: Movement as expected; button 1 = fire, button 2 = jetpack thrust, button 3 = cycle weapons, hold button 4 + up or down = pan camera. Toggle display is between radar (minimap) and weapons (ammo status)",
 		"min_players": 1,
 		"max_players": 1,
 		"controls": {
@@ -100,7 +100,7 @@
 				"toggle_turbo": ["t", null],
 				"pause": ["p", "start"],
 				"pan_camera_up": ["page_up", "right_stick_up"],
-				"pan_camera_up": ["page_down", "right_stick_down"],
+				"pan_camera_down": ["page_down", "right_stick_down"],
 				"center_joystick": ["j", null],
 				"toggle_music": ["m", null],
 				"move_left": ["left_arrow", "dpad_left"],
@@ -112,7 +112,6 @@
 				"help": ["f1", null]
 			}
 		},
-		"notes": "Joystick controls in case I decide to put those in the controls object: Movement as expected; button 1 = fire, button 2 = jetpack thrust, button 3 = cycle weapons, hold button 4 + up or down = pan camera. Toggle display is between radar (minimap) and weapons (ammo status)",
 		"compat_notes": "VGA graphics, recommends SB or SB Pro and 386 CPU; compatible with 2 or 4 button gamepad/joysticks and mouse",
 		"required_hardware": {
 			"free_ram": 573440,
@@ -187,7 +186,7 @@
 				"use_magic_item": ["left_control", "secondary_button"],
 				"display_items": ["space", "select"],
 				"select_item": ["enter", "primary_button"],
-				"die": ["d", "aux_secondary_button"],
+				"die": ["d", "aux_secondary_button"]
 			}
 		},
 		"compat_notes": "Original readme says Adlib for music and SB for sound effects; also VGA with 256KB VRAM. CPU support all the way up to Pentium",
@@ -228,19 +227,19 @@
 		"max_players": 1,
 		"controls": {
 			"player_1": {
-				"jump", ["left_alt", "primary_button"],
-				"fire", ["space", "secondary_button"],
-				"roll", ["space", "secondary_button"],
-				"move_left", ["left_arrow", "dpad_left"],
-				"move_right", ["right_arrow", "dpad_right"],
-				"look_up", ["up_arow", "dpad_up"],
-				"duck", ["down_arrow", "dpad_down"],
-				"cycle_weapons", ["left_control", "aux_primary_button"],
-				"menu", ["escape", "select"],
-				"slow_motion", ["t", "left_shoulder"],
-				"pause", ["p", "start"],
-				"move_forward", ["up_arrow", "dpad_up"],
-				"adjust_detail_level", ["f1", "right_shoulder"]
+				"jump": ["left_alt", "primary_button"],
+				"fire": ["space", "secondary_button"],
+				"roll": ["space", "secondary_button"],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"look_up": ["up_arow", "dpad_up"],
+				"duck": ["down_arrow", "dpad_down"],
+				"cycle_weapons": ["left_control", "aux_primary_button"],
+				"menu": ["escape", "select"],
+				"slow_motion": ["t", "left_shoulder"],
+				"pause": ["p", "start"],
+				"move_forward": ["up_arrow", "dpad_up"],
+				"adjust_detail_level": ["f1", "right_shoulder"]
 			}
 		},
 		"genre": "Run & Gun",
@@ -768,7 +767,7 @@
 				"quick_load": ["f9", null],
 				"fast_exit": ["f10", null],
 				"brightness": ["f11", null],
-				"screenshot": ["print_screen", null],
+				"screenshot": ["print_screen", null]
 			}
 		},
 		"genre": "Shooter",
@@ -804,7 +803,7 @@
 				"recalibrate_joystick": ["j", null],
 				"pause": ["p", "start"],
 				"quick_save": ["left_control + w", null],
-				"quick_load": ["left_control + l", null],
+				"quick_load": ["left_control + l", null]
 			}
 		},
 		"genre": "Maze",
@@ -812,5 +811,5 @@
 		"required_software": {
 			"os": "dos"
 		}
-	},
+	}
 ]

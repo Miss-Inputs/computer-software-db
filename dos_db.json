@@ -850,5 +850,10 @@
 	"Word Whiz Volume 4": {
 		"parent": "Word Whiz Volume 1",
 		"app_name": "WW4.EXE"
+	},
+	"AdLib Juke Box": {
+		"app_name": "JUKEBOX.EXE",
+		"category": "Applications",
+		"genre": "Music Player"
 	}
 }

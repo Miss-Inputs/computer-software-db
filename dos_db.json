@@ -855,5 +855,70 @@
 		"app_name": "JUKEBOX.EXE",
 		"category": "Applications",
 		"genre": "Music Player"
+	},
+	"Arcade Volleyball": {
+		"app_name": "Av.exe",
+		"category": "Games",
+		"genre": "Sports",
+		"subgenre": "Volleyball",
+		"notes": "CGA graphics. Now released as public domain",
+		"min_players": 1,
+		"max_players": 2
+	},
+	"Electro Man": {
+		"app_name": "EM.EXE",
+		"category": "Games",
+		"notes": "2006 CC-BY-SA 2.5 release; recompiled from source specifically for DOSBox usage. Can also use F10 for return to menu",
+		"controls": {
+			"player_1": {
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"jump": ["up_arrow", "primary_button"],
+				"fire": ["space", "secondary_button"],
+				"activate_teleport": ["down_arrow", "aux_primary_button"],
+				"exit": ["left_alt + x", null],
+				"return_to_menu": ["escape", null],
+				"save": ["f2", null],
+				"load": ["f3", null]
+			}
+		} 
+	},
+	"Adventures of Robbo": {
+		"app_name": "ROBBO.EXE",
+		"category": "Games",
+		"notes": "2006 CC-BY-SA 2.5 release; recompiled from source specifically for DOSBox usage. Space/fire also starts game from title screen",
+		"controls": {
+			"player_1": {
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"move_up": ["up_arrow", "dpad_up"],
+				"move_down": ["down_arrow", "dpad_down"],
+				"fire": ["space", "primary_button"],
+				"enter_level_code": ["f3", null],
+				"exit": ["left_alt + x", null],
+				"return_to_title": ["f10", null],
+				"die": ["escape", null],
+				"toggle_sound": ["f1", null]
+			}
+		} 
+	},
+	"Heartlight PC": {
+		"app_name": "HL.EXE",
+		"category": "Games",
+		"notes": "2006 CC-BY-SA 2.5 release; recompiled from source specifically for DOSBox usage. Space + left/right arrow changes level",
+		"controls": {
+			"player_1": {
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"move_up": ["up_arrow", "dpad_up"],
+				"move_down": ["down_arrow", "dpad_down"],
+				"start_game": ["space", "primary_button"],
+				"exit": ["left_alt + x", null],
+				"return_to_title": ["f10", null],
+				"restart_level": ["escape", null],
+				"toggle_music": ["f6", null],
+				"toggle_sound": ["f7", null]
+			}
+		} 
 	}
 }

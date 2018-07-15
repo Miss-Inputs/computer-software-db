@@ -920,5 +920,28 @@
 				"toggle_sound": ["f7", null]
 			}
 		} 
+	},
+	"Atomic Tetris": {
+		"app_name": "AT.EXE",
+		"category": "Games",
+		"clone_of": "Tetris",
+		"min_players": 2,
+		"max_players": 1,
+		"controls": {
+			"player_1": {
+				"move_left": ["r", "dpad_left"],
+				"move_right": ["y", "dpad_right"],
+				"turn": ["t", "primary_button"],
+				"drop": ["g", "dpad_down"],
+				"quick_drop": ["1", "secondary_button"],
+			},
+			"player_2": {
+				"move_left": ["4_numpad", "dpad_left"],
+				"move_right": ["6_numpad", "dpad_right"],
+				"turn": ["5_numpad", "primary_button"],
+				"drop": ["2_numpad", "dpad_down"],
+				"quick_drop": ["\\", "secondary_button"],
+			}
+		}
 	}
 }

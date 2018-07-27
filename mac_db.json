@@ -617,7 +617,10 @@
 		"app_name": "Food Chain",
 		"creator_code": "FdCn",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"emu_compat": {
+			"basilisk_ii": false
+		}
 	},
 	"Frog Xing (1.2)": {
 		"app_name": "Frog Xing 1.2",

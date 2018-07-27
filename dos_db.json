@@ -933,14 +933,14 @@
 				"move_right": ["y", "dpad_right"],
 				"turn": ["t", "primary_button"],
 				"drop": ["g", "dpad_down"],
-				"quick_drop": ["1", "secondary_button"],
+				"quick_drop": ["1", "secondary_button"]
 			},
 			"player_2": {
 				"move_left": ["4_numpad", "dpad_left"],
 				"move_right": ["6_numpad", "dpad_right"],
 				"turn": ["5_numpad", "primary_button"],
 				"drop": ["2_numpad", "dpad_down"],
-				"quick_drop": ["\\", "secondary_button"],
+				"quick_drop": ["\\", "secondary_button"]
 			}
 		}
 	}

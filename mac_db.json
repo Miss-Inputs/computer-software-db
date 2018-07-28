@@ -462,14 +462,7 @@
 	},
 	"Cyberopoly: The Alfred University Edition": {
 		"app_name": "The Alfred University Edition",
-		"creator_code": "¥∫r",
-		"arch": "68k",
-		"category": "Games",
-		"genre": "Tabletop",
-		"subgenre": "Board",
-		"clone_of": "Monopoly",
-		"min_players": 1,
-		"max_players": 6
+		"parent": "Cyberopoly"
 	},
 	"Cythera": {
 		"app_name": "Cythera",

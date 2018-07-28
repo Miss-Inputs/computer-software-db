@@ -35,9 +35,7 @@ def validate(path):
 		for k, v in game.items():
 			if k not in valid_keys:
 				print(game_name, 'has invalid key:', k)
-				
-		#TODO: Check "controls" object which will probably be tricky
-		
+						
 		if 'arch' in game and game['arch'] not in valid_arch:
 			print(game_name, 'has invalid arch:', game['arch'])
 		if 'resolution_compat' in game and game['resolution_compat'] not in valid_resolution_compat:
@@ -73,6 +71,36 @@ def validate(path):
 			print(game_name, 'has invalid required_hardware:', type(game['required_hardware']))
 		if 'required_software' in game and not isinstance(game['required_software'], dict):
 			print(game_name, 'has invalid required_software:', type(game['required_software']))
+
+		#TODO: Check "controls" object which will probably be tricky
+		if 'emu_compat' in game:
+			for k, v in game['emu_compat'].items():
+				if not isinstance(v, bool):
+					print(game_name, 'has invalid emu_compat.emulator', k, v)
+					
+		if 'required_hardware' in game:
+			for k, v in game['required_hardware'].items():
+				if k not in ('free_ram', 'cpu', 'cpu_speed', 'for_xt'):
+					print(game_name, 'has invalid required_hardware key', k)
+				
+			if 'free_ram' in game['required_hardware']:
+				if not isinstance(game['required_hardware']['free_ram'], int):
+					print(game_name, 'has invalid required_hardware.free_ram', game['required_hardware']['free_ram'])
+			if 'cpu_speed' in game['required_hardware']:
+				if not isinstance(game['required_hardware']['cpu_speed'], (int, float)):
+					print(game_name, 'has invalid required_hardware.cpu_speed', game['required_hardware']['cpu_speed'])
+			if 'for_xt' in game['required_hardware']:
+				if not isinstance(game['required_hardware']['for_xt'], bool):
+					print(game_name, 'has invalid required_hardware.for_xt', game['required_hardware']['for_xt'])
+					
+		if 'required_software' in game:
+			for k, v in game['required_software'].items():
+				if k not in ('os', 'os_version', 'extensions'):
+					print(game_name, 'has invalid required_software key', k)
+				
+			if 'extensions' in game['required_software']:
+				if not isinstance(game['required_software']['extensions'], list):
+					print(game_name, 'has invalid required_software.extensions', game['required_software']['extensions'])
 
 	
 validate('mac_db.json')

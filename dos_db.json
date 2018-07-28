@@ -970,5 +970,17 @@
 		"required_software": {
 			"os": "dos"
 		}
-	}
+	},
+	"Mortal Kombat 3 (demo)": {
+		"app_name": "MK3.EXE",
+		"category": "Trials",
+		"genre": "Fighting",
+		"subgenre": "Versus",
+		"developer": "Midway",
+		"publisher": "GT Interactive",
+		"year": 1996,
+		"required_software": {
+			"os": "dos"
+		}
+	},
 }

@@ -943,5 +943,22 @@
 				"quick_drop": ["\\", "secondary_button"]
 			}
 		}
+	},
+	"Catacombs": {
+		"app_name": "CATACOMB.EXE",
+		"category": "Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Dangerous Dave": {
+		"app_name": "DAVE.EXE",
+		"other_app_names": [],
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

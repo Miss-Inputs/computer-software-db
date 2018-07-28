@@ -1342,5 +1342,26 @@
 		"app_name": "Microsoft Help Run Time",
 		"creator_code": "MSH1",
 		"notes": "Unsure what this is exactly, but it's in Mavis Beacon 5, and has the same creator code as MegaSimpsonHomer which is a bit odd"
+	},
+	"Bugdom (Shareware)": {
+		"app_name": "Bugdom™ (Shareware)",
+		"creator_code": "BalZ",
+		"arch": "ppc",
+		"compat_notes": "Requires 3D acceleration, supposedly ATI specifically; minimum screen 640x480 @ thousands",
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "3D",
+		"required_hardware": {
+			"cpu": "g3",
+			"cpu_speed": 233,
+			"free_ram": 33554432
+		},
+		"required_software": {
+			"os_version": "8.0",
+			"extensions": ["QuickDraw 3D", "DrawSprocket"]
+		},
+		"emu_compat": {
+			"sheepshaver": false
+		}
 	}
 }

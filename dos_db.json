@@ -982,5 +982,28 @@
 		"required_software": {
 			"os": "dos"
 		}
-	}
+	},
+	"Zool (demo)": {
+		"app_name": "MNBV.EXE",
+		"category": "Trials",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"publisher": "Gremlin Graphics",
+		"year": 1993,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Tetris": {
+		"app_name": "Tetris.exe",
+		"category": "Games",
+		"genre": "Puzzle",
+		"subgenre": "Drop",
+		"publisher": "Vadim Gerasimov",
+		"year": 1986,
+		"notes": "The OG Tetris (other than the Elektronika 60 prototype)",
+		"required_software": {
+			"os": "dos"
+		}
+	},
 }

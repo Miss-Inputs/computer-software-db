@@ -131,10 +131,13 @@ I realise this probably creates confusion with clone_of as below, so, uhh.... bu
 - runs_in_window: For Mac and Windows: If true (default false), doesn't actually run in fullscreen. Hmm... how should this interact with resolution stuff?
 - genre: Game genre, though applications can have genres too because I said so (Word Processor, Game Utility, etc) though of course this all isn't consistent
 - subgenre: Game/app subgenre, again arbitrarily defined
+- developer: Developer of this particular version of the game. I feel like it's pointless to list the developer if it's the same company/person, or the publisher is just a company name for one person who is the developer, but eh.
+- publisher: Publisher of this particular version of the game
+- year: Release year of this particular version of the game, as number... hmm, how to represent some kind of unreleased game? Date it was leaked?
 - compat_notes: Other notes on compatibility, should be displayed to the user
 - requires_cd: If true (default false), game requires the CD inserted in the drive to play the game
 - adult: If true (default false), game is too pornographic for kids
-- emu_compat: For Mac (since you don't have much choice with DOS, unless you want a convoluted solution that automatically generates disk images and boots them with some entire-PC emulator), compatibility with various emulators, object with any number of:
+- emu_compat: For Mac (since you don't have much choice with DOS, unless you want a convoluted solution that automatically generates disk images and boots them with some entire-PC emulator, or maybe you do), compatibility with various emulators, object with any number of:
 	- "emulator": value
 		- Where emulator is: mame, mini_vmac, basilisk_ii, sheepshaver, qemu, dosbox
 		- Hmm, do I want to add "classic_environment" "pce_macplus" and maybe "fusion" "executor" to that list? Or to separate mame into mame_macii etc?

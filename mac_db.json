@@ -6,6 +6,7 @@
 		"category": "Games",
 		"genre": "Puzzle",
 		"notes": "Released as freeware: http://www.fools-errand.com/04-3T/index.htm",
+		"developer": "Cliff Johnson",
 		"compat_notes": "If using only 2 colours only needs 700K of RAM; runs on Plus, Classic, SE, LC and II family",
 		"colours": 256,
 		"colours_compat": "required",
@@ -22,12 +23,17 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Tabletop",
-		"subgenre": "Cards"
+		"subgenre": "Cards",
+		"publisher": "Freeverse Software",
+		"year": 1999,
 	},
 	"NASCAR Pinball": {
 		"app_name": " NASCAR Pinball",
 		"creator_code": "PB4!",
 		"arch": "68k",
+		"developer": "Dynamix",
+		"publisher": "Sierra",
+		"year": 1998,
 		"category": "Games",
 		"genre": "Pinball",
 		"subgenre": "Fantasy",
@@ -52,6 +58,9 @@
 		"arch": "68k",
 		"category": "Games",
 		"runs_in_window": true,
+		"developer": "Ryan Foltz",
+		"publisher": "Epic Banana",
+		"year": 1999,
 		"min_players": 1,
 		"max_players": 1,
 		"controls": {
@@ -75,7 +84,9 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Simulation",
-		"subgenre": "Flight"
+		"subgenre": "Flight",
+		"year": 1991,
+		"publisher": "Electronic Arts"
 	},
 	"3D Klondike": {
 		"app_name": "3D Klondike v.1.0a",
@@ -83,7 +94,8 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Tabletop",
-		"subgenre": "Cards"
+		"subgenre": "Cards",
+		"publisher": "Freeverse Software"
 	},
 	"Apeiron": {
 		"app_name": "Apeiron",
@@ -93,6 +105,8 @@
 		"clone_of": "Centipede",
 		"genre": "Shooter",
 		"subgenre": "Fixed",
+		"publisher": "Ambrosia Software",
+		"year": 1995,
 		"compat_notes": "256 colours or grayscale (will switch automatically to 256 if more), 640x480 or larger",
 		"min_players": 1,
 		"max_players": 1,
@@ -110,7 +124,8 @@
 		"arch": "68k",
 		"category": "Games",
 		"clone_of": "Breakout",
-		"notes": "Official version by Taito",
+		"publisher": "Taito",
+		"year": 1988,
 		"compat_notes": "Very old, might not even run on 68030"
 	},
 	"Blackjack": {
@@ -222,19 +237,26 @@
 		"creator_code": "ar12",
 		"arch": "68k",
 		"category": "Games",
-		"notes": "Now released under GPL"
+		"notes": "Now released under GPL",
+		"developer": "Bigger Planet",
+		"publisher": "Ambrosia Software",
+		"year": 1996
 	},
 	"At the Carnival": {
 		"app_name": "Puzzle Gallery",
 		"creator_code": " pg ",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Cliff Johnson"
 	},
 	"Avara": {
 		"app_name": "Avara",
 		"creator_code": "AVAR",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Juri Munkki",
+		"publisher": "Ambrosia Software",
+		"year": 1996
 	},
 	"Barrack": {
 		"app_name": "Barrack",
@@ -242,6 +264,8 @@
 		"arch": "fat",
 		"category": "Games",
 		"clone_of": "JezzBall",
+		"publisher": "Ambrosia Software",
+		"year": 1996,
 		"compat_notes": "256 colours, 13 inch monitor (640x480?) or greater; 68040 or PPC recommended",
 		"notes": "Mouse controls: Move with mouse, click to fire a barrier, press orientation key to change orientation, caps lock to pause, escape to abort",
 		"required_hardware": {
@@ -271,6 +295,8 @@
 		"width": 640,
 		"height": 480,
 		"colours": 256,
+		"publisher": "McSebi",
+		"year": 1997,
 		"resolution_compat": "nag",
 		"colours_compat": "required",
 		"min_players": 1,
@@ -298,6 +324,8 @@
 		"clone_of": "Pengo",
 		"genre": "Maze",
 		"subgenre": "Block Push",
+		"publisher": "Ambrosia Software",
+		"year": 1996,
 		"compat_notes": "640x480 screen, 256 colours/grays or more",
 		"required_hardware": {
 			"cpu": "68020",
@@ -315,11 +343,14 @@
 		"notes": "App name is cut off because of HFS filename limitations. This is created by Game Doctor",
 		"parent": "Bubble Trouble"
 	},
-	"Buried in Time (demo)": {
+	"The Journeyman Project 2: Buried in Time (demo)": {
 		"app_name": "Buried in Time™ Demo",
 		"creator_code": "PJ93",
 		"arch": "68k",
-		"category": "Trials"
+		"category": "Trials",
+		"developer": "Presto Studios",
+		"publisher": "Sanctuary Woods",
+		"year": 1995
 	},
 	"Burning Monkey Solitaire": {
 		"app_name": "Burning Monkey Solitaire",
@@ -327,7 +358,8 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Tabletop",
-		"subgenre": "Cards"
+		"subgenre": "Cards",
+		"publisher": "Freeverse Software"
 	},
 	"Card 99": {
 		"app_name": "Card 99",
@@ -341,7 +373,11 @@
 		"app_name": "Carmen World Deluxe",
 		"creator_code": "SHSD",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"genre": "Edutainment",
+		"subgenre": "Geography",
+		"publisher": "Brøderbund",
+		"year": 1992, 
 	},
 	"CartoonShy": {
 		"app_name": "CartoonShy",
@@ -365,6 +401,8 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Puzzle",
+		"publisher": "Ambrosia Software",
+		"year": 1994,
 		"compat_notes": "256 colours, 1.5MB RAM",
 		"required_hardware": {
 			"free_ram": 1572864
@@ -382,7 +420,8 @@
 		"app_name": "Chronicle of Ekan",
 		"creator_code": "Wild",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"year": 2000
 	},
 	"Cortex": {
 		"app_name": "CORTEX",
@@ -403,7 +442,6 @@
 		"category": "Games",
 		"genre": "Sports",
 		"subgenre": "Cricket",
-		"notes": "Unregistered with no known serials"
 	},
 	"Cube Strategy": {
 		"app_name": "Cube Strategy v2.3",
@@ -437,7 +475,11 @@
 		"app_name": "Cythera",
 		"creator_code": "Delv",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"genre": "RPG",
+		"developer": "Glenn Andreas",
+		"publisher": "Ambrosia Software",
+		"year": 1999
 	},
 	"Dart Board": {
 		"app_name": "Dart Board v1.02",
@@ -445,13 +487,17 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Sports",
-		"subgenre": "Darts"
+		"subgenre": "Darts",
+		"publisher": "Jim Plamondon",
+		"year": 1997
 	},
 	"Desert Trek": {
 		"app_name": "Desert Trek 1.02",
 		"creator_code": "DTRK",
 		"arch": "68k",
 		"category": "Games",
+		"publisher": "Cary Torkelson",
+		"year": 1994,
 		"runs_in_window": true,
 		"compat_notes": "Will definitely run on System 6 and maybe older. Complains about too many colours (claims to not have enough memory), but unsure of how many colours it wants exactly, or if this message is caused by some other issue"
 	},
@@ -459,7 +505,9 @@
 		"app_name": "Dirt Bike 3.1",
 		"creator_code": "MBbq",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Brad Quick",
+		"year": "1995"
 	},
 	"Divine Right": {
 		"app_name": "Divine Right 7.0.9",
@@ -496,6 +544,9 @@
 		"category": "Trials",
 		"genre": "Shooter",
 		"subgenre": "FPS",
+		"developer": "3D Realms",
+		"publisher": "MacSoft",
+		"year": 1997,
 		"notes": "Contains first three levels",
 		"colours": 256,
 		"colours_compat": "required",
@@ -504,8 +555,9 @@
 	"Elf Forest": {
 		"app_name": "Elf Forest",
 		"creator_code": "CRMI",
-		"arch": "68k",
-		"category": "Games"
+		"arch": "ppc",
+		"category": "Games",
+		"year": 2001
 	},
 	"Eric's Ultimate Solitaire": {
 		"app_name": "Eric’s Ultimate Solitaire",
@@ -513,13 +565,19 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Tabletop",
-		"subgenre": "Cards"
+		"subgenre": "Cards",
+		"developer": "Eric Snider",
+		"publisher": "Delta Tao Software",
+		"year": 1992,
 	},
 	"Escape Velocity": {
 		"app_name": "Escape Velocity",
 		"creator_code": "Mërc",
 		"arch": "fat",
 		"category": "Games",
+		"developer": "Matt Burch",
+		"publisher": "Ambrosia Software",
+		"year": 1996,
 		"compat_notes": "Game uses entire screen so theoretically supports any resolution, but needs at least 640x480 and 256 colours; recommends 68040 or PPC",
 		"required_hardware": {
 			"free_ram": 6291456
@@ -567,7 +625,9 @@
 		"app_name": "EV Override 1.0.0",
 		"creator_code": "EsçO",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Ambrosia Software",
+		"year": 1998,
 	},
 	"Exile Editor": {
 		"app_name": "Exile.editor v1.1.2",
@@ -586,13 +646,18 @@
 		"app_name": "Color Faces Demo",
 		"creator_code": "DK•1",
 		"arch": "68k",
-		"category": "Trials"
+		"category": "Trials",
+		"developer": "Sphere",
+		"publisher": "Spectrum Holobyte",
+		"year": 1990,
 	},
-	"Factory": {
+	"Factory: The Industrial Devolution": {
 		"app_name": "Factory 1.3",
 		"creator_code": "FabP",
 		"arch": "68k",
 		"category": "Games",
+		"publisher": "Patric Calahan",
+		"year": 1995,
 		"colours": 256,
 		"colours_compat": "required",
 		"compat_notes": "Must use 2, 16, or 256 colours",
@@ -605,7 +670,9 @@
 		"app_name": "Fluffy's Adventure 1.2",
 		"creator_code": "gFAa",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "George Norman",
+		"year": 1995
 	},
 	"Foobar vs. the DEA": {
 		"app_name": "Foobar Versus the DEA",
@@ -618,6 +685,9 @@
 		"creator_code": "FdCn",
 		"arch": "68k",
 		"category": "Games",
+		"genre": "Puzzle",
+		"publisher": "Cajun Games",
+		"year": 1998,
 		"emu_compat": {
 			"basilisk_ii": false
 		}
@@ -627,6 +697,8 @@
 		"creator_code": "QnFX",
 		"arch": "68k",
 		"category": "Games",
+		"publisher": "Quarter Note Software",
+		"year": 1995,
 		"clone_of": "Frogger"
 	},
 	"Frog Xing (1.3)": {
@@ -643,19 +715,26 @@
 		"app_name": "Garcia's Guitars",
 		"creator_code": "AHjD",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Jason Rainbows",
+		"year": 1995,
 	},
 	"Gearheads (demo)": {
 		"app_name": "Gearheads Demo",
 		"creator_code": "mrn!",
 		"arch": "68k",
-		"category": "Trials"
+		"category": "Trials",
+		"developer": "RGA Interactive",
+		"publisher": "Philips",
+		"year": 1996,
 	},
-	"George Stock Game": {
+	"The George Stock Game": {
 		"app_name": "GSG1.0",
 		"creator_code": "GSGF",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Kevin Quigley",
+		"year": 1996,
 	},
 	"Glider Pro": {
 		"app_name": "Glider PRO™",
@@ -690,7 +769,9 @@
 		"app_name": "GoldPusher",
 		"creator_code": "GOUD",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Erich Friedman, Daniël Vree, Willem Vree",
+		"year": 1996,
 	},
 	"GopherGolf": {
 		"app_name": "GopherGolf",
@@ -704,7 +785,13 @@
 		"app_name": "BONKHEADS",
 		"creator_code": "BkHd",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "Fixed",
+		"clone_of": "Mario Bros",
+		"developer": "1 AM Productions",
+		"publisher": "Aspyr Media",
+		"year": 1997,
 	},
 	"Greebles": {
 		"app_name": "Greebles",
@@ -712,13 +799,17 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Maze",
-		"subgenre": "Block Push"
+		"subgenre": "Block Push",
+		"publisher": "Stairways Software",
+		"year": 1997,
 	},
 	"Gryphon Bricks": {
 		"app_name": "Gryphon Bricks™",
 		"creator_code": "ARQL",
 		"arch": "68k",
-		"category": "Educational"
+		"category": "Educational",
+		"publisher": "Gryphon Software",
+		"year": 1996,
 	},
 	"KidBricks": {
 		"app_name": "KidBricks™",
@@ -733,7 +824,8 @@
 		"arch": "68k",
 		"category": "Applications",
 		"genre": "Game Utility",
-		"subgenre": "Level Editor"
+		"subgenre": "Level Editor",
+		"publisher": "Ambrosia Software",
 	},
 	"Harry the Handsome Executive": {
 		"app_name": "Harry 1.0.1",
@@ -741,7 +833,11 @@
 		"arch": "fat",
 		"category": "Games",
 		"compat_notes": "Requires PPC for some graphical effects",
-		"genre": "Action-Adventure"
+		"genre": "Action-Adventure",
+		"subgenre": "Top-Down",
+		"developer": "Ben Spees",
+		"publisher": "Ambrosia Software",
+		"year": 1997,
 	},
 	"Hello Kitty Big Fun": {
 		"app_name": "HELLO KITTY BIG FUN",

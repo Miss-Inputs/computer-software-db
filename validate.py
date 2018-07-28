@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+import sys
 
 valid_keys = ['parent', 'creator_code', 'app_name', 'other_app_names', 'arch', 'category', 'clone_of', 'notes', 'resolution_compat', 'colours_compat', 'width', 'notes', 'width', 'height', 'colours', 'min_players', 'max_players', 'controls', 'runs_in_window', 'genre', 'subgenre', 'developer', 'publisher', 'year', 'compat_notes', 'requires_cd', 'adult', 'emu_compat', 'required_hardware', 'required_software']
 valid_arch = ['68k', 'ppc', 'fat']
@@ -102,6 +103,19 @@ def validate(path):
 				if not isinstance(game['required_software']['extensions'], list):
 					print(game_name, 'has invalid required_software.extensions', game['required_software']['extensions'])
 
-	
-validate('mac_db.json')
-validate('dos_db.json')
+def check_missing(path, key):
+	game_list = read_game_list(path)
+	for game_name, game in game_list.items():
+		if key not in game:
+			print(path, '->', game_name, 'missing', key)
+
+if len(sys.argv) > 1:
+	arg = sys.argv[1]
+	if arg not in valid_keys:
+		print('Key not valid:', arg)
+	else:
+		check_missing('mac_db.json', arg)
+		check_missing('dos_db.json', arg)
+else:
+	validate('mac_db.json')
+	validate('dos_db.json')

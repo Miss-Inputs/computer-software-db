@@ -148,6 +148,6 @@ I realise this probably creates confusion with clone_of as below, so, uhh.... bu
 	- "cpu_speed": Minimum CPU speed in MHz
 	- "for_xt": For DOS, specifies that this is designed for PC-XT or earlier (4.77MHz CPU) and will probably run too fast on a newer system
 - required_software: Software requirements (object):
-	- "os": Mac: Minimum System / Mac OS version required; DOS: "dos" or "win"
-	- "os_version": DOS/Windows version (hmm, maybe I should just set this to "mac" for Mac games and use this for min system version)
+	- "os": DOS: "dos" or "win"
+	- "os_version": System/Mac OS/DOS/Windows version
 	- "extensions": Mac: Array of extensions required

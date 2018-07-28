@@ -1363,5 +1363,13 @@
 		"emu_compat": {
 			"sheepshaver": false
 		}
+	},
+	"Holiday Lights": {
+		"app_name": "Holiday Lights",
+		"creator_code": "110V",
+		"notes": "Meant to be run in the background",
+		"category": "Software Toys",
+		"genre": "Holiday",
+		"publisher": "Tiger Technologies"
 	}
 }

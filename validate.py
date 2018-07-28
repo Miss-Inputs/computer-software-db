@@ -3,7 +3,7 @@
 import json
 import sys
 
-valid_keys = ['parent', 'creator_code', 'app_name', 'other_app_names', 'arch', 'category', 'clone_of', 'notes', 'resolution_compat', 'colours_compat', 'width', 'notes', 'width', 'height', 'colours', 'min_players', 'max_players', 'controls', 'runs_in_window', 'genre', 'subgenre', 'developer', 'publisher', 'year', 'compat_notes', 'requires_cd', 'adult', 'emu_compat', 'required_hardware', 'required_software']
+valid_keys = ['parent', 'creator_code', 'app_name', 'other_app_names', 'arch', 'category', 'clone_of', 'notes', 'resolution_compat', 'colours_compat', 'notes', 'width', 'height', 'colours', 'min_players', 'max_players', 'controls', 'runs_in_window', 'genre', 'subgenre', 'developer', 'publisher', 'year', 'compat_notes', 'requires_cd', 'adult', 'emu_compat', 'required_hardware', 'required_software']
 valid_arch = ['68k', 'ppc', 'fat']
 valid_resolution_compat = ['empty_space', 'nag', 'required']
 valid_colour_compat = ['palette', 'nag', 'required']

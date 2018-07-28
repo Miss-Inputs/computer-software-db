@@ -4,8 +4,8 @@ import json
 
 def validate(path):
 	with open(path, 'rt') as f:
-		db = json.load(f)
-	for game_name, game in db.items():
+		game_list = json.load(f)
+	for game_name, game in game_list.items():
 		if 'parent' in game:
 			parent_name = game['parent']
 			if parent_name in game_list:

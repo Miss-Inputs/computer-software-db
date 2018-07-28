@@ -960,5 +960,15 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Mega Man X (demo)": {
+		"app_name": "MMXDEMO.EXE",
+		"category": "Trials",
+		"genre": "Run & Gun",
+		"publisher": "Capcom",
+		"year": 1995,
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

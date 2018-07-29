@@ -111,7 +111,11 @@ def check_missing(path, key):
 
 if len(sys.argv) > 1:
 	arg = sys.argv[1]
-	if arg not in valid_keys:
+	if arg == 'metadata':
+		for k in {'category', 'genre', 'subgenre', 'developer', 'publisher', 'year'}:
+			check_missing('mac_db.json', k)
+			check_missing('dos_db.json', k)
+	elif arg not in valid_keys:
 		print('Key not valid:', arg)
 	else:
 		check_missing('mac_db.json', arg)

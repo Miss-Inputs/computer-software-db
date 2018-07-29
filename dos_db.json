@@ -1013,5 +1013,14 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Snarf": {
+		"app_name": "snarf.exe",
+		"category": "Games",
+		"publisher": "Everett Kaser",
+		"year": 1993,
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

@@ -109,12 +109,20 @@ def check_missing(path, key):
 		if key not in game:
 			print(path, '->', game_name, 'missing', key)
 
+def check_missing_metadata(path):
+	game_list = read_game_list(path)
+	for game_name, game in game_list.items():
+		for key in {'category', 'genre', 'subgenre', 'year'}:
+			if key not in game:
+				print(path, '->', game_name, 'missing', key)
+		if 'developer' not in game and 'publisher' not in game:
+			print(path, '->', game_name, 'missing developer/publisher')
+
 if len(sys.argv) > 1:
 	arg = sys.argv[1]
 	if arg == 'metadata':
-		for k in {'category', 'genre', 'subgenre', 'developer', 'publisher', 'year'}:
-			check_missing('mac_db.json', k)
-			check_missing('dos_db.json', k)
+		check_missing_metadata('mac_db.json')
+		check_missing_metadata('dos_db.json')
 	elif arg not in valid_keys:
 		print('Key not valid:', arg)
 	else:

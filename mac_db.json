@@ -107,7 +107,7 @@
 		"subgenre": "Fixed",
 		"publisher": "Ambrosia Software",
 		"year": 1995,
-		"compat_notes": "256 colours or grayscale (will switch automatically to 256 if more), 640x480 or larger",
+		"compat_notes": "256 colours or grayscale (will switch automatically to 256 if more)",
 		"min_players": 1,
 		"max_players": 1,
 		"notes": "Mouse controls: Use mouse to move around, click button to fire; also use Caps Lock to pause and escape to abort. v1.0.3 uses InputSprockets, TODO list keyboard/gamepad controls",
@@ -403,7 +403,7 @@
 		"genre": "Puzzle",
 		"publisher": "Ambrosia Software",
 		"year": 1994,
-		"compat_notes": "256 colours, 1.5MB RAM",
+		"compat_notes": "256 colours",
 		"required_hardware": {
 			"free_ram": 1572864
 		}

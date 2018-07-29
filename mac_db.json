@@ -922,7 +922,8 @@
 		"arch": "68k",
 		"category": "Games",
 		"publisher": "Factor Software",
-		"year": 1995
+		"year": 1995,
+		"clone_of": "Pipe Mania"
 	},
 	"MacPlaymate II": {
 		"app_name": "MacPlaymate II",

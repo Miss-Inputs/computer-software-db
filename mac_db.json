@@ -1139,7 +1139,10 @@
 		"category": "Games",
 		"genre": "Puzzle",
 		"subgenre": "Tile Matching",
-		"clone_of": "Puyo Puyo"
+		"clone_of": "Puyo Puyo",
+		"developer": "Big Bang Software",
+		"publisher": "Spectrum Holobyte",
+		"year": 1995
 	},
 	"Realmz Character Editor (demo)": {
 		"app_name": "Character Editor 7.1 DEMO",
@@ -1153,19 +1156,26 @@
 		"creator_code": "RLMZ",
 		"arch": "68k",
 		"category": "Games",
-		"genre": "RPG"
+		"genre": "RPG",
+		"publisher": "Fantasoft",
+		"year": 1999
 	},
 	"Ricochet": {
 		"app_name": "Ricochet",
 		"creator_code": "rruR",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"genre": "Puzzle",
+		"developer": "Bob Urschel",
+		"year": 1996
 	},
 	"robotfindskitten": {
 		"app_name": "robotfindskitten",
 		"creator_code": "XRFK",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"year": 2008,
+		"notes": "Written for 2008 RetroChallenge: http://equant-retrochallenge.blogspot.com/2008/07/robotfindskitten-10.html"
 	},
 	"Rogue": {
 		"app_name": "Rogue",
@@ -1187,7 +1197,12 @@
 	"Royal Flush (1.2.1)": {
 		"app_name": "Royal Flush 1.2.1",
 		"arch": "fat",
-		"parent": "Royal Flush (1.0)"
+		"parent": "Royal Flush (1.0)",
+		"developer": "Gerard Putter",
+		"notes": "Was supposed to be published by Amtex (as port of PC game) but wasn't; original pinball table by Gottlieb",
+		"year": 1998,
+		"genre": "Pinball",
+		"subgenre": "Simulation"
 	},
 	"Royal Flush (1.2.1) (68K)": {
 		"app_name": "Royal Flush 1.2.1(68K)",
@@ -1203,7 +1218,10 @@
 		"app_name": "Scarab of RA 1.4",
 		"creator_code": "SSRA",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Rick Holzgrafe",
+		"publisher": "Semicolon Software",
+		"year": 1987
 	},
 	"Sim Cinema Deluxe": {
 		"app_name": "Sim Cinema Deluxe v2.5 68k",
@@ -1211,7 +1229,9 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Simulation",
-		"subgenre": "Management"
+		"subgenre": "Management",
+		"developer": "Shannon Schroeder",
+		"year": 1999
 	},
 	"SimAnt": {
 		"app_name": "SimAnt™",

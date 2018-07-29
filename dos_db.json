@@ -1022,5 +1022,15 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"The Lion King (demo)": {
+		"app_name": "LIONKING.EXE",
+		"category": "Trials",
+		"developer": "East Point Software",
+		"publisher": "Virgin",
+		"year": 1994,
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

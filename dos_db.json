@@ -1032,5 +1032,13 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Clyde's Revenge": {
+		"app_name": "REVENGE.EXE",
+		"category": "Games",
+		"publisher": "Moonlite Software",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

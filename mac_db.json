@@ -930,32 +930,46 @@
 		"creator_code": "MMPB",
 		"arch": "68k",
 		"category": "Games",
-		"adult": true
+		"adult": true,
+		"developer": "Mike Saenz",
+		"publisher": "Pegasus Productions",
+		"year": 1991
+
 	},
 	"MacPlaymate": {
 		"app_name": "MacPlaymate™",
 		"creator_code": "MMTE",
 		"arch": "68k",
 		"category": "Games",
-		"adult": true
+		"adult": true,
+		"developer": "Mike Saenz",
+		"publisher": "Pegasus Productions",
+		"year": 1986
 	},
 	"Populous II": {
 		"app_name": "MacPopulousII",
 		"creator_code": "Pop2",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Bullfrog",
+		"publisher": "Electronic Arts",
+		"year": 1994
 	},
 	"MacQubic": {
 		"app_name": "MacQubic 2.3",
 		"creator_code": "QBIC",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Eric David Besley, David A. Besley",
+		"year": 1995
 	},
 	"MacSnack": {
 		"app_name": "MacSnack 1",
 		"creator_code": "PJ95",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Dennis Brinkhuis",
+		"year": 1995
 	},
 	"Theme Park": {
 		"app_name": "MacThemePark (256)",
@@ -963,27 +977,37 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Simulation",
-		"subgenre": "Construction"
+		"subgenre": "Construction",
+		"developer": "Bullfrog",
+		"publisher": "Electronic Arts",
+		"year": 1994
 	},
 	"Maelstrom": {
 		"app_name": "Maelstrom",
 		"creator_code": "Mael",
 		"arch": "68k",
 		"category": "Games",
-		"clone_of": "Asteroids"
+		"clone_of": "Asteroids",
+		"publisher": "Ambrosia Software",
+		"year": 1992
 	},
 	"Mario Teaches Typing": {
 		"app_name": "Mario Teaches Typing",
 		"creator_code": "MRTT",
 		"arch": "68k",
 		"category": "Educational",
-		"genre": "Typing"
+		"genre": "Typing",
+		"developer": "Interplay",
+		"publisher": "MacPlay",
+		"year": 1993
 	},
 	"MegaSimpsonHomer": {
 		"app_name": "MegaSimpsonHomer",
 		"creator_code": "MSH1",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Stewart Smith",
+		"year": 1996
 	},
 	"MemoryPict": {
 		"app_name": "MemoryPict 6.1",
@@ -997,27 +1021,37 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Tabletop",
-		"subgenre": "Board"
+		"subgenre": "Board",
+		"developer": "Greg Abbas",
+		"publisher": "Abbai Technologies",
+		"year": 1992
 	},
 	"MineSweeper Pro": {
 		"app_name": "MineSweeper Pro",
 		"creator_code": "MINP",
 		"arch": "68k",
 		"category": "Games",
-		"clone_of": "Minesweeper"
+		"clone_of": "Minesweeper",
+		"developer": "Kentaro Tanida",
+		"year": 1996
 	},
 	"Missions of the Reliant II": {
 		"app_name": "Missions of the Reliant! 2.0.1",
 		"creator_code": "MotR",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Michael Rubin",
+		"year": 1996
 	},
 	"Ms. MacPerson (demo)": {
 		"app_name": "Ms.MacPerson Demo 1.1",
 		"creator_code": "gi03",
 		"arch": "68k",
 		"category": "Games",
-		"clone_of": "Ms. Pacman"
+		"clone_of": "Ms. Pacman",
+		"genre": "Maze",
+		"publisher": "Midas Interactive",
+		"year": 1999
 	},
 	"NameThatGame": {
 		"app_name": "NameThatGame 1.0",

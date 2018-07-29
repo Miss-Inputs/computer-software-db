@@ -1075,11 +1075,13 @@
 	"PacMac Deluxe": {
 		"app_name": "PacMac Deluxe",
 		"creator_code": "DPac",
-		"arch": "68k",
+		"arch": "fat",
 		"category": "Games",
 		"clone_of": "Pac-Man",
 		"genre": "Maze",
 		"publisher": "DAPPSoft",
+		"colours": 256,
+		"colours_compat": "required",
 		"year": 1996
 	},
 	"Pararena": {

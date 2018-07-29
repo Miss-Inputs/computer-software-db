@@ -3,6 +3,8 @@
 		"app_name": "EDIT.EXE",
 		"category": "Applications",
 		"genre": "Text Editor",
+		"publisher": "Microsoft",
+		"year": 1991,
 		"required_software": {
 			"os": "dos"
 		}
@@ -12,6 +14,8 @@
 		"category": "Applications",
 		"genre": "IDE",
 		"subgenre": "Basic",
+		"publisher": "Microsoft",
+		"year": 1991,
 		"required_software": {
 			"os": "dos"
 		}
@@ -19,6 +23,8 @@
 	"robotfindskitten": {
 		"app_name": "robotdos.exe",
 		"category": "Games",
+		"developer": "Leonard Richardson",
+		"year": 1997,
 		"min_players": 1,
 		"max_players": 1,
 		"controls": {
@@ -38,6 +44,8 @@
 	"Second Reality": {
 		"app_name": "SECOND.EXE",
 		"category": "Demos",
+		"developer": "Future Crew",
+		"year": 1993,
 		"compat_notes": "486 CPU & VGA graphics recommended, Sound Blaster/SB Pro/GUS sound",
 		"required_hardware": {
 			"free_ram": 570000,
@@ -50,6 +58,8 @@
 	"8088 Corruption": {
 		"app_name": "8088_COR.EXE",
 		"category": "Demos",
+		"developer": "Hornet",
+		"year": 2004,
 		"compat_notes": "CGA graphics; Sound Blaster Pro + Sound Blaster 2.0; designed for original IBM PC 5150 but may run on later",
 		"required_software": {
 			"os": "dos"
@@ -58,6 +68,8 @@
 	"8088 Domination": {
 		"app_name": "8088DOM.BAT",
 		"category": "Demos",
+		"developer": "Hornet",
+		"year": 2014,
 		"compat_notes": "CGA graphics, Sound Blaster 1.5 or later",
 		"required_software": {
 			"os": "dos"
@@ -68,12 +80,17 @@
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1991
 	},
 	"Alien Carnage": {
 		"app_name": "CARNAGE.EXE",
 		"category": "Games",
-		"notes": "Freeware release with patches from DOSBox team. Also known as Halloween Harry, not sure if that would have a different exe? Joystick controls in case I decide to put those in the controls object: Movement as expected; button 1 = fire, button 2 = jetpack thrust, button 3 = cycle weapons, hold button 4 + up or down = pan camera. Toggle display is between radar (minimap) and weapons (ammo status)",
+		"notes": "Freeware release with patches from DOSBox team. Also known as Halloween Harry (1993), not sure if that would have a different exe? Joystick controls in case I decide to put those in the controls object: Movement as expected; button 1 = fire, button 2 = jetpack thrust, button 3 = cycle weapons, hold button 4 + up or down = pan camera. Toggle display is between radar (minimap) and weapons (ammo status)",
+		"developer": "Interactive Binary Illusions/SubZero Software",
+		"publisher": "Apogee Sotware",
+		"year": 1994,
 		"min_players": 1,
 		"max_players": 1,
 		"controls": {
@@ -117,6 +134,8 @@
 		"app_name": "menace1.bat",
 		"category": "Games",
 		"notes": "Command line options: /COMP (SVGA compatibility), /LATCHPEL (ATI SVGA compat), /NOAL (Don't detect adlib), /NOJOYS (Don't detect joystick), /NOMOUSE (don't detect mouse, which is only used for menus)",
+		"publisher": "Apogee Software",
+		"year": 1993,
 		"min_players": 1,
 		"max_players": 1,
 		"controls": {
@@ -136,7 +155,9 @@
 		"subgenre": "Compilation",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Epyx",
+		"year": 1988
 	},
 	"California Games II": {
 		"app_name": "CGII.EXE",
@@ -145,7 +166,9 @@
 		"subgenre": "Compilation",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Epyx",
+		"year": 1990
 	},
 	"Dark Ages Episode 1": {
 		"app_name": "DA1.EXE",
@@ -153,7 +176,10 @@
 		"compat_notes": "Uses Adlib sound, might work with other Adlib compatible sound cards too",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Scenario Software",
+		"publisher": "Apogee Software",
+		"year": 1991
 	},
 	"God of Thunder": {
 		"app_name": "GOT.EXE",
@@ -181,7 +207,10 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Adept Software",
+		"publisher": "Software Creations",
+		"year": 1993
 	},
 	"Heros, a Super Hero Platform Game": {
 		"app_name": "HEROS.EXE",
@@ -199,7 +228,12 @@
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Animation Magic",
+		"publisher": "Simon & Schuster",
+		"year": 1995,
+		"genre": "Edutainment",
+		"subgenre": "Literacy"
 	},
 	"Jazz Jackrabbit": {
 		"app_name": "JAZZ.EXE",
@@ -225,6 +259,8 @@
 			}
 		},
 		"genre": "Run & Gun",
+		"publisher": "Epic MegaGames",
+		"year": 1994,
 		"compat_notes": "Menus seem to stutter in DOSBox (fixed in DOSBox-X), in-game seems fine though.Needs SB, SB16, SB Pro, Pro Audio Spectrum, or GUS for sound. Apparently HIMEM.SYS or EMM386 can slow things down, but disabling EMS in DOSBox config doesn't fix the stuttering",
 		"required_hardware": {
 			"free_ram": 2621440,
@@ -244,35 +280,46 @@
 		"subgenre": "Interactive (Multiple Ending)",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "United Pixtures",
+		"year": 1993,
+		"adult": true
 	},
 	"Castle of Kroz": {
 		"app_name": "CASTLE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"Caverns of Kroz": {
 		"app_name": "CAVERNS.COM",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1988
 	},
 	"Caverns of Kroz 2": {
 		"app_name": "CAVERNS.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1988
 	},
 	"Dungeons of Kroz": {
 		"app_name": "DUNGEONS.COM",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Hints for Kroz": {
 		"app_name": "KROZHINT.EXE",
@@ -281,56 +328,71 @@
 		"subgenre": "Guide",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software"
 	},
 	"Kingdom of Kroz": {
 		"app_name": "Kingdom.com",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1987
 	},
 	"Kingdom of Kroz 2": {
 		"app_name": "KINGDOM.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"The Lost Adventures of Kroz": {
 		"app_name": "LOST.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"Shrine of Kroz": {
 		"app_name": "SHRINE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"The Final Crusade of Kroz": {
 		"app_name": "CRUSADE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"Return to Kroz": {
 		"app_name": "RETURN.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"Temple of Kroz": {
 		"app_name": "TEMPLE.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"Landmark System Speed Test (6.00)": {
 		"app_name": "SPEED600.EXE",
@@ -339,7 +401,8 @@
 		"genre": "Benchmark",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Landmark Research"
 	},
 	"The Adventures of Maddog Williams in The Dungeons of Duridian": {
 		"app_name": "MDWVGA.EXE",
@@ -349,14 +412,19 @@
 		"max_players": 1,
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Game Crafters",
+		"year": 1992
 	},
 	"Monuments of Mars Episode 1": {
 		"app_name": "MARS1.EXE",
 		"category": "Games",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Scenario Software",
+		"publisher": "Apogee Software",
+		"year": 1991
 	},
 	"One Must Fall: 2097": {
 		"app_name": "OMF.EXE",
@@ -376,6 +444,9 @@
 		},
 		"genre": "Fighting",
 		"subgenre": "Versus",
+		"developer": "Diversions Entertainment",
+		"publisher": "Epic MegaGames",
+		"year": 1994,
 		"compat_notes": "Modem, null modem cable, or IPX for network play; VGA graphics",
 		"required_hardware": {
 			"free_ram": 3670016,
@@ -400,7 +471,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Night Bomber": {
 		"app_name": "BOMBER.COM",
@@ -412,7 +485,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Rogue Runner": {
 		"app_name": "RUNNER.EXE",
@@ -428,7 +503,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"The Thing": {
 		"app_name": "THING.COM",
@@ -441,7 +518,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Asteroid Rescue": {
 		"app_name": "ASTEROID.COM",
@@ -453,7 +532,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Block Five": {
 		"app_name": "BLOCK5.EXE",
@@ -470,7 +551,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Maze Machine": {
 		"app_name": "MAZE.COM",
@@ -484,7 +567,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Phrase Master": {
 		"app_name": "PHRASE.EXE",
@@ -501,7 +586,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Radix: Beyond the Void": {
 		"app_name": "RADIX.EXE",
@@ -551,7 +638,10 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Neural Storm Entertainment",
+		"publisher": "Epic MegaGames",
+		"year": 1995
 	},
 	"Sid Meier's Railroad Tycoon": {
 		"app_name": "RRT.EXE",
@@ -567,7 +657,10 @@
 		"required_software": {
 			"os": "dos",
 			"os_version": "5.0"
-		}
+		},
+		"developer": "MicroProse",
+		"publisher": "2K Games",
+		"year": 1990
 	},
 	"Retro City Rampage": {
 		"app_name": "RCR.EXE",
@@ -579,7 +672,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Vblank Entertainment",
+		"year": 2015
 	},
 	"RMCobol": {
 		"app_name": "RMCOBOL.EXE",
@@ -588,27 +683,32 @@
 		"subgenre": "COBOL",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Micro Focus"
 	},
 	"Sango Fighter": {
 		"app_name": "SANGO.EXE",
 		"category": "Games",
-		"notes": "2010 release by Super Fighter Team",
 		"genre": "Fighting",
 		"subgenre": "Versus",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Panda Entertainment",
+		"publisher": "Super Fighter Team",
+		"year": 2009
 	},
 	"Sango Fighter 2": {
 		"app_name": "SANGO2.EXE",
 		"category": "Games",
-		"notes": "2010 release by Super Fighter Team",
 		"genre": "Fighting",
 		"subgenre": "Versus",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Panda Entertainment",
+		"publisher": "Super Fighter Team",
+		"year": 2009
 	},
 	"The Simpsons": {
 		"app_name": "SIMPSONS.BAT",
@@ -617,7 +717,10 @@
 		"genre": "Beat'em up",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Novotrade",
+		"publisher": "Konami",
+		"year": 1991
 	},
 	"Supernova": {
 		"app_name": "NOVA.COM",
@@ -627,7 +730,9 @@
 		"subgenre": "Text",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1987
 	},
 	"Major Stryker": {
 		"app_name": "STRYKER.EXE",
@@ -637,7 +742,9 @@
 		"compat_notes": "EGA graphics",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1993
 	},
 	"Caves of Thor": {
 		"app_name": "CAVES.EXE",
@@ -648,7 +755,10 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Senario Software",
+		"publisher": "Apogee Software",
+		"year": 1989
 	},
 	"Beyond the Titanic": {
 		"app_name": "BEYOND.COM",
@@ -659,7 +769,9 @@
 		"compat_notes": "Needs a floppy drive to save",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1986
 	},
 	"Pharaoh's Tomb Episode 1": {
 		"app_name": "PTOMB1.EXE",
@@ -667,7 +779,10 @@
 		"notes": "Freeware (3.0)",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Micro F/X Software",
+		"publisher": "Apogee Software",
+		"year": 1990
 	},
 	"Trivia Whiz Volume 1": {
 		"app_name": "TW1.EXE",
@@ -678,7 +793,10 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Micro F/X Software",
+		"publisher": "Apogee Software",
+		"year": 1988
 	},
 	"Word Whiz Volume 1": {
 		"app_name": "WW1.EXE",
@@ -690,7 +808,9 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"publisher": "Apogee Software",
+		"year": 1988
 	},
 	"Stargunner": {
 		"app_name": "STARGUN.EXE",
@@ -729,7 +849,10 @@
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "WizardWorks",
+		"publisher": "Apogee Software",
+		"year": 1996
 	},
 	"Supaplex (Speed Fix 6.3)": {
 		"app_name": "spfix63.exe",
@@ -759,7 +882,10 @@
 		"subgenre": "Digging",
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Think!Ware Development",
+		"publisher": "Digital Integration",
+		"year": 1991
 	},
 	"Arctic Adventure Episode 2": {
 		"parent": "Arctic Adventure Episode 1",
@@ -854,7 +980,9 @@
 	"AdLib Juke Box": {
 		"app_name": "JUKEBOX.EXE",
 		"category": "Applications",
-		"genre": "Music Player"
+		"genre": "Music Player",
+		"publisher": "AdLib",
+		"year": 1987
 	},
 	"Arcade Volleyball": {
 		"app_name": "Av.exe",
@@ -863,7 +991,9 @@
 		"subgenre": "Volleyball",
 		"notes": "CGA graphics. Now released as public domain",
 		"min_players": 1,
-		"max_players": 2
+		"max_players": 2,
+		"developer": "Rhett Anderson",
+		"year": 1988
 	},
 	"Electro Man": {
 		"app_name": "EM.EXE",
@@ -881,7 +1011,9 @@
 				"save": ["f2", null],
 				"load": ["f3", null]
 			}
-		} 
+		},
+		"publisher": "xLand Games",
+		"year": 2006
 	},
 	"Adventures of Robbo": {
 		"app_name": "ROBBO.EXE",
@@ -900,7 +1032,9 @@
 				"die": ["escape", null],
 				"toggle_sound": ["f1", null]
 			}
-		} 
+		},
+		"publisher": "xLand Games",
+		"year": 2006
 	},
 	"Heartlight PC": {
 		"app_name": "HL.EXE",
@@ -919,7 +1053,9 @@
 				"toggle_music": ["f6", null],
 				"toggle_sound": ["f7", null]
 			}
-		} 
+		},
+		"publisher": "xLand Games",
+		"year": 2006
 	},
 	"Atomic Tetris": {
 		"app_name": "AT.EXE",
@@ -942,7 +1078,9 @@
 				"drop": ["2_numpad", "dpad_down"],
 				"quick_drop": ["\\", "secondary_button"]
 			}
-		}
+		},
+		"developer": "Jared Tarbell",
+		"year": 1991
 	},
 	"Catacombs": {
 		"app_name": "CATACOMB.EXE",

@@ -1238,7 +1238,10 @@
 		"app_name": "SimAnt™",
 		"creator_code": "SANT",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1991
 	},
 	"SimCity 2000": {
 		"app_name": "SimCity 2000® 1.2",
@@ -1247,14 +1250,20 @@
 		"category": "Games",
 		"genre": "Simulation",
 		"subgenre": "Construction",
-		"compat_notes": "PPC required for max speed mode"
+		"compat_notes": "PPC required for max speed mode",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1993
 	},
 	"SimCity Urban Renewal Kit": {
 		"app_name": "Urban Renewal Kit",
 		"creator_code": "SCRK",
 		"arch": "68k",
 		"category": "Applications",
-		"genre": "Game Utility"
+		"genre": "Game Utility",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1995
 	},
 	"SimEarth (Black & White)": {
 		"app_name": "SimEarth Black & White",
@@ -1264,7 +1273,10 @@
 		"app_name": "SimEarth Color",
 		"creator_code": "MYCR",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1990
 	},
 	"SimFarm": {
 		"app_name": "SimFarm",
@@ -1272,13 +1284,20 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Simulation",
-		"subgenre": "Farming"
+		"subgenre": "Farming",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1994
 	},
 	"SimLife": {
 		"app_name": "SimLife™ Color",
 		"creator_code": "SMLS",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"genre": "Simulation",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1992
 	},
 	"SimTown": {
 		"app_name": "SimTown",
@@ -1286,7 +1305,10 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Simulation",
-		"subgenre": "Construction"
+		"subgenre": "Construction",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1995
 	},
 	"Skittles": {
 		"app_name": "Skittles",
@@ -1295,13 +1317,18 @@
 		"category": "Games",
 		"genre": "Puzzle",
 		"subgenre": "Tile Matching",
-		"clone_of": "Puyo Puyo"
+		"clone_of": "Puyo Puyo",
+		"developer": "John Stiles",
+		"year": 1996
 	},
 	"Slithereens": {
 		"app_name": "Slithereens",
 		"creator_code": "SrpC",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"genre": "Maze",
+		"publisher": "Ambrosia Software",
+		"year": 1998
 	},
 	"Smashing Windows II": {
 		"app_name": "Smashing Windows II",
@@ -1311,44 +1338,63 @@
 		"clone_of": "Space Invaders",
 		"genre": "Shooter",
 		"subgenre": "Fixed",
-		"notes": "Mouse controls; move left and right by moving mouse and click to fire"
+		"notes": "Mouse controls; move left and right by moving mouse and click to fire",
+		"developer": "Richard Bannister"
 	},
 	"Space Cab": {
 		"app_name": "Space Cab",
 		"creator_code": "SpCb",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Kevin Quigley",
+		"publisher": "Peace, Love, and World Groovyness Software",
+		"year": 1997
 	},
 	"Spaceway 2000": {
 		"app_name": "Spaceway 2000™",
 		"creator_code": "JnJr",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Jeffrey Robbin",
+		"publisher": "Casady & Greene",
+		"year": 1993
 	},
 	"Spectre VR (demo)": {
 		"app_name": "Spectre VR Demo",
 		"creator_code": "Spe2",
 		"arch": "68k",
-		"category": "Trials"
+		"category": "Trials",
+		"developer": "Green Dragon Creations",
+		"publisher": "Velocity",
+		"year": 1994
 	},
 	"Squish": {
 		"app_name": "Squish 2.6.8",
 		"creator_code": "SQSH",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Enigma Software",
+		"publisher": "Fantasoft",
+		"year": 1999
 	},
 	"Swoop": {
 		"app_name": "Swoop",
 		"creator_code": "Flit",
 		"arch": "68k",
 		"category": "Games",
-		"clone_of": "Galaga"
+		"clone_of": "Galaga",
+		"developer": "David Wareing",
+		"publisher": "Ambrosia Software",
+		"year": 1995
 	},
 	"The Fantastic War": {
 		"app_name": "The Fantastic War",
 		"creator_code": "FnWr",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Kevin Quigley",
+		"publisher": "Peace, Love, and World Groovyness Software",
+		"year": 1997
 	},
 	"The Great LightBulb Adventure": {
 		"app_name": "The Great LightBulb Adventure",
@@ -1426,7 +1472,9 @@
 		"app_name": "Wrath of the Gods",
 		"creator_code": "PJ93",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Luminaria",
+		"year": 1994
 	},
 	"Microsoft Help Runtime": {
 		"app_name": "Microsoft Help Run Time",
@@ -1441,6 +1489,8 @@
 		"category": "Games",
 		"genre": "Platform",
 		"subgenre": "3D",
+		"publisher": "Pangea Software",
+		"year": 1999,
 		"required_hardware": {
 			"cpu": "g3",
 			"cpu_speed": 233,

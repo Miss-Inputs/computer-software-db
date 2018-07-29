@@ -1057,20 +1057,30 @@
 		"app_name": "NameThatGame 1.0",
 		"creator_code": "PJ97",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"genre": "Puzzle",
+		"subgenre": "Word",
+		"developer": "Gilles Bergeron",
+		"year": 1998
 	},
 	"Odyssey: The Legend of Nemesis": {
 		"app_name": "Odyssey 1.1",
 		"creator_code": "ODYS",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"developer": "Paranoid Productions",
+		"publisher": "MacSoft",
+		"year": 1996
 	},
 	"PacMac Deluxe": {
 		"app_name": "PacMac Deluxe",
 		"creator_code": "DPac",
 		"arch": "68k",
 		"category": "Games",
-		"clone_of": "Pac-Man"
+		"clone_of": "Pac-Man",
+		"genre": "Maze",
+		"publisher": "DAPPSoft",
+		"year": 1996
 	},
 	"Pararena": {
 		"app_name": "Pararena 1.3",

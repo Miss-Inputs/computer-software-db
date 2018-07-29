@@ -212,16 +212,17 @@
 		"publisher": "Software Creations",
 		"year": 1993
 	},
-	"Heros, a Super Hero Platform Game": {
+	"Heros: The Sanguine Seven": {
 		"app_name": "HEROS.EXE",
 		"category": "Games",
-		"compat_notes": "Readme mentions probably needing a slowdown utility, although copyright indicates this is from 1993 but I guess I'll take its word for it",
 		"required_hardware": {
-			"for_xt": true
+			"for_xt": false
 		},
 		"required_software": {
 			"os": "dos"
-		}
+		},
+		"developer": "Jeffrey Fullerton",
+		"year": 1993
 	},
 	"I.M. Meen": {
 		"app_name": "MEEN.BAT",

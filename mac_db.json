@@ -1231,7 +1231,8 @@
 		"genre": "Simulation",
 		"subgenre": "Management",
 		"developer": "Shannon Schroeder",
-		"year": 1999
+		"year": 1999,
+		"runs_in_window": true
 	},
 	"SimAnt": {
 		"app_name": "SimAnt™",

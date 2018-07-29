@@ -871,13 +871,18 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Puzzle",
-		"subgenre": "Sliding"
+		"subgenre": "Sliding",
+		"developer": "Jérome Crêtaux",
+		"publisher": "Fantasoft",
+		"year": 1998
 	},
 	"King's Quest V": {
 		"app_name": "King's Quest V",
 		"creator_code": "SCIk",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Sierra",
+		"year": 1991
 	},
 	"Little Red Wagon": {
 		"app_name": "Little Red Wagon®",
@@ -891,7 +896,9 @@
 		"creator_code": "PJ97",
 		"arch": "68k",
 		"category": "Games",
-		"requires_cd": true
+		"requires_cd": true,
+		"publisher": "BBC Multimedia",
+		"year": 1997
 	},
 	"MacFoxes": {
 		"app_name": "MACFOXES",
@@ -913,7 +920,9 @@
 		"app_name": "MacPipes 2.2.3",
 		"creator_code": "McPP",
 		"arch": "68k",
-		"category": "Games"
+		"category": "Games",
+		"publisher": "Factor Software",
+		"year": 1995
 	},
 	"MacPlaymate II": {
 		"app_name": "MacPlaymate II",

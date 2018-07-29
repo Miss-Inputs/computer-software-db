@@ -81,7 +81,7 @@ def validate(path):
 					
 		if 'required_hardware' in game:
 			for k, v in game['required_hardware'].items():
-				if k not in ('free_ram', 'cpu', 'cpu_speed', 'for_xt'):
+				if k not in ('free_ram', 'cpu', 'cpu_speed', 'for_xt', 'graphics'):
 					print(game_name, 'has invalid required_hardware key', k)
 				
 			if 'free_ram' in game['required_hardware']:

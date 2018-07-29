@@ -60,7 +60,10 @@
 		"category": "Demos",
 		"developer": "Hornet",
 		"year": 2004,
-		"compat_notes": "CGA graphics; Sound Blaster Pro + Sound Blaster 2.0; designed for original IBM PC 5150 but may run on later",
+		"compat_notes": "Sound Blaster Pro + Sound Blaster 2.0; designed for original IBM PC 5150 but may run on later",
+		"required_hardware": {
+			"graphics": "cga"
+		},
 		"required_software": {
 			"os": "dos"
 		}
@@ -70,7 +73,10 @@
 		"category": "Demos",
 		"developer": "Hornet",
 		"year": 2014,
-		"compat_notes": "CGA graphics, Sound Blaster 1.5 or later",
+		"compat_notes": "Sound Blaster 1.5 or later",
+		"required_hardware": {
+			"graphics": "cga"
+		},
 		"required_software": {
 			"os": "dos"
 		}

@@ -1200,7 +1200,7 @@
 	"Royal Flush (1.2.1)": {
 		"app_name": "Royal Flush 1.2.1",
 		"arch": "fat",
-		"parent": "Royal Flush (1.0)",
+		"parent": "Royal Flush (1.0)"
 	},
 	"Royal Flush (1.2.1) (68K)": {
 		"app_name": "Royal Flush 1.2.1(68K)",

@@ -1208,5 +1208,14 @@
 	"Clyde's Adventure Episode 2": {
 		"app_name": "CLYDE2.EXE",
 		"parent": "Clyde's Adventure Episode 1"
+	},
+	"Cyberdogs": {
+		"app_name": "CYBER.EXE",
+		"category": "Games",
+		"developer": "Ronny Wester",
+		"year": 1994,
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

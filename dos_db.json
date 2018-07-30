@@ -1185,5 +1185,28 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Chopper Commando": {
+		"app_name": "CHOPPER2.EXE",
+		"category": "Games",
+		"developer": "Mark Currie",
+		"year": 2014,
+		"notes": "Bug fixed version (v2.57) from Classic DOS Games",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Clyde's Adventure Episode 1": {
+		"app_name": "CLYDE1.EXE",
+		"category": "Games",
+		"publisher": "Moonlite Software",
+		"year": 1992,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Clyde's Adventure Episode 2": {
+		"app_name": "CLYDE2.EXE",
+		"parent": "Clyde's Adventure Episode 1"
 	}
 }

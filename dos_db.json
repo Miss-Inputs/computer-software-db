@@ -1217,5 +1217,15 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Cybersphere": {
+		"app_name": "Cybersphere.EXE",
+		"category": "Games",
+		"publisher": "Psycon Software",
+		"year": 1996,
+		"clone_of": "Breakout",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

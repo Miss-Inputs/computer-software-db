@@ -1227,5 +1227,15 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Cybersphere Plus": {
+		"app_name": "CYBPLUS.EXE",
+		"category": "Games",
+		"publisher": "Psycon Software",
+		"year": 1997,
+		"clone_of": "Breakout",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

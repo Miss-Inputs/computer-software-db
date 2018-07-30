@@ -1190,6 +1190,9 @@
 		"category": "Games",
 		"genre": "Pinball",
 		"subgenre": "Simulation",
+		"developer": "Gerard Putter",
+		"notes": "Was supposed to be published by Amtex (as port of PC game) but wasn't; original pinball table by Gottlieb",
+		"year": 1998,
 		"emu_compat": {
 			"basilisk_ii": false
 		}
@@ -1198,11 +1201,6 @@
 		"app_name": "Royal Flush 1.2.1",
 		"arch": "fat",
 		"parent": "Royal Flush (1.0)",
-		"developer": "Gerard Putter",
-		"notes": "Was supposed to be published by Amtex (as port of PC game) but wasn't; original pinball table by Gottlieb",
-		"year": 1998,
-		"genre": "Pinball",
-		"subgenre": "Simulation"
 	},
 	"Royal Flush (1.2.1) (68K)": {
 		"app_name": "Royal Flush 1.2.1(68K)",

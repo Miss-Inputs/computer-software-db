@@ -1237,5 +1237,70 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Duel 2000": {
+		"app_name": "DUEL.EXE",
+		"category": "Games",
+		"developer": "Damon Hastings",
+		"year": 1991,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Jill of the Jungle Episode 1": {
+		"app_name": "JILL.EXE",
+		"category": "Games",
+		"publisher": "Epic MegaGames",
+		"year": 1992,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Jump 'n' Bump": {
+		"app_name": "jumpbump.exe",
+		"category": "Games",
+		"publisher": "Brainchild Design",
+		"year": 1998,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Keen Dreams": {
+		"app_name": "KDREAMS.EXE",
+		"category": "Games",
+		"developer": "id Software",
+		"publisher": "SoftDisk",
+		"year": 1992,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Cool Spot (demo)": {
+		"app_name": "SPOT.EXE",
+		"category": "Trials",
+		"publisher": "Virgin",
+		"year": 1994,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Abuse": {
+		"app_name": "ABUSE.EXE",
+		"category": "Games",
+		"developer": "Cracked Dot Com",
+		"publisher": "Electronic Arts",
+		"year": 1996,
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"Backlash": {
+		"app_name": "BL.EXE",
+		"category": "Games",
+		"publisher": "Sanctuary Software Studio",
+		"year": 1994,
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

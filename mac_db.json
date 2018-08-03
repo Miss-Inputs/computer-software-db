@@ -8,13 +8,13 @@
 		"notes": "Released as freeware: http://www.fools-errand.com/04-3T/index.htm",
 		"developer": "Cliff Johnson",
 		"compat_notes": "If using only 2 colours only needs 700K of RAM; runs on Plus, Classic, SE, LC and II family",
-		"colours": 256,
+		"max_colours": 256,
 		"colours_compat": "required",
 		"required_hardware": {
-			"free_ram": 1536000
+			"min_ram": 1536000
 		},
 		"required_software": {
-			"os_version": "6.0.5"
+			"min_os_version": "6.0.5"
 		}
 	},
 	"3D Hearts Deluxe": {
@@ -107,15 +107,15 @@
 		"subgenre": "Fixed",
 		"publisher": "Ambrosia Software",
 		"year": 1995,
-		"compat_notes": "256 colours or grayscale (will switch automatically to 256 if more)",
+		"compat_notes": "Will switch automatically to 256 if more than 256 colours",
+		"min_colours": 256,
 		"min_players": 1,
 		"max_players": 1,
 		"notes": "Mouse controls: Use mouse to move around, click button to fire; also use Caps Lock to pause and escape to abort. v1.0.3 uses InputSprockets, TODO list keyboard/gamepad controls",
 		"resolution_compat": "empty_space",
-		"width": 640,
-		"height": 480,
+		"max_resolution": [640, 480],
 		"required_software": {
-			"os_version": "6.0.7"
+			"min_os_version": "6.0.7"
 		}
 	},
 	"Arkanoid": {
@@ -266,10 +266,11 @@
 		"clone_of": "JezzBall",
 		"publisher": "Ambrosia Software",
 		"year": 1996,
-		"compat_notes": "256 colours, 13 inch monitor (640x480?) or greater; 68040 or PPC recommended",
+		"compat_notes": "13 inch monitor (640x480?) or greater; 68040 or PPC recommended",
+		"min_colours": 256,
 		"notes": "Mouse controls: Move with mouse, click to fire a barrier, press orientation key to change orientation, caps lock to pause, escape to abort",
 		"required_hardware": {
-			"free_ram": 3984588
+			"min_ram": 3984588
 		}
 	},
 	"BattleShip": {
@@ -292,9 +293,8 @@
 		"arch": "68k",
 		"category": "Games",
 		"clone_of": "Bubble Bobble",
-		"width": 640,
-		"height": 480,
-		"colours": 256,
+		"max_resolution": [640, 480],
+		"max_colours": 256,
 		"publisher": "McSebi",
 		"year": 1997,
 		"resolution_compat": "nag",
@@ -326,13 +326,14 @@
 		"subgenre": "Block Push",
 		"publisher": "Ambrosia Software",
 		"year": 1996,
-		"compat_notes": "640x480 screen, 256 colours/grays or more",
+		"min_resolution": [640, 480],
+		"min_colours": 256,
 		"required_hardware": {
-			"cpu": "68020",
-			"free_ram": 3174400
+			"min_cpu": "68020",
+			"min_ram": 3174400
 		},
 		"required_software": {
-			"os_version": "7.0",
+			"min_os_version": "7.0",
 			"extensions": [
 				"Sound Manager"
 			]
@@ -403,9 +404,9 @@
 		"genre": "Puzzle",
 		"publisher": "Ambrosia Software",
 		"year": 1994,
-		"compat_notes": "256 colours",
+		"min_colours": 256,
 		"required_hardware": {
-			"free_ram": 1572864
+			"min_ram": 1572864
 		}
 	},
 	"ChristmasTime": {
@@ -543,7 +544,7 @@
 		"publisher": "MacSoft",
 		"year": 1997,
 		"notes": "Contains first three levels",
-		"colours": 256,
+		"max_colours": 256,
 		"colours_compat": "required",
 		"compat_notes": "Screen size options go from 320x200 to 1024x768, and otherwise will display a black screen; there's an option to switch the resolution automatically. Surprisingly does work in BasiliskII though"
 	},
@@ -573,9 +574,11 @@
 		"developer": "Matt Burch",
 		"publisher": "Ambrosia Software",
 		"year": 1996,
-		"compat_notes": "Game uses entire screen so theoretically supports any resolution, but needs at least 640x480 and 256 colours; recommends 68040 or PPC",
+		"compat_notes": "Game uses entire screen so theoretically supports any resolution; recommends 68040 or PPC",
+		"min_colours": 256,
+		"min_resolution": [640, 480],
 		"required_hardware": {
-			"free_ram": 6291456
+			"min_ram": 6291456
 		},
 		"min_players": 1,
 		"max_players": 1,
@@ -653,11 +656,11 @@
 		"category": "Games",
 		"publisher": "Patric Calahan",
 		"year": 1995,
-		"colours": 256,
+		"max_colours": 256,
 		"colours_compat": "required",
 		"compat_notes": "Must use 2, 16, or 256 colours",
 		"required_software": {
-			"os_version": "6.0.5"
+			"min_os_version": "6.0.5"
 		},
 		"notes": "Mouse point and click controls; what genre would I call this?"
 	},
@@ -1082,7 +1085,7 @@
 		"clone_of": "Pac-Man",
 		"genre": "Maze",
 		"publisher": "DAPPSoft",
-		"colours": 256,
+		"max_colours": 256,
 		"colours_compat": "required",
 		"year": 1996
 	},
@@ -1491,14 +1494,16 @@
 		"subgenre": "3D",
 		"publisher": "Pangea Software",
 		"year": 1999,
+		"min_resolution": [640, 480],
+		"min_colours": 65536, 
 		"required_hardware": {
-			"cpu": "g3",
-			"cpu_speed": 233,
-			"free_ram": 33554432,
-			"graphics": "3d"
+			"min_cpu": "g3",
+			"min_cpu_speed": 233,
+			"min_ram": 33554432,
+			"min_graphics": "3d"
 		},
 		"required_software": {
-			"os_version": "8.0",
+			"min_os_version": "8.0",
 			"extensions": ["QuickDraw 3D", "DrawSprocket"]
 		},
 		"emu_compat": {

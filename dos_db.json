@@ -48,8 +48,8 @@
 		"year": 1993,
 		"compat_notes": "486 CPU & VGA graphics recommended, Sound Blaster/SB Pro/GUS sound",
 		"required_hardware": {
-			"free_ram": 570000,
-			"cpu": "386"
+			"min_ram": 570000,
+			"min_cpu": "386"
 		},
 		"required_software": {
 			"os": "dos"
@@ -62,7 +62,7 @@
 		"year": 2004,
 		"compat_notes": "Sound Blaster Pro + Sound Blaster 2.0; designed for original IBM PC 5150 but may run on later",
 		"required_hardware": {
-			"graphics": "cga"
+			"max_graphics": "cga"
 		},
 		"required_software": {
 			"os": "dos"
@@ -73,9 +73,9 @@
 		"category": "Demos",
 		"developer": "Hornet",
 		"year": 2014,
-		"compat_notes": "Sound Blaster 1.5 or later",
+		"compat_notes": "Sound Blaster 1.5 or later; needs CGA graphics for composite colour effects",
 		"required_hardware": {
-			"graphics": "cga"
+			"max_graphics": "cga"
 		},
 		"required_software": {
 			"os": "dos"
@@ -127,10 +127,11 @@
 				"help": ["f1", null]
 			}
 		},
-		"compat_notes": "VGA graphics, recommends SB or SB Pro and 386 CPU; compatible with 2 or 4 button gamepad/joysticks and mouse",
+		"compat_notes": "Recommends SB or SB Pro and 386 CPU; compatible with 2 or 4 button gamepad/joysticks and mouse",
 		"required_hardware": {
-			"free_ram": 573440,
-			"cpu": "286"
+			"min_ram": 573440,
+			"min_cpu": "286",
+			"min_graphics": "vga"
 		},
 		"required_software": {
 			"os": "dos"
@@ -150,7 +151,7 @@
 		"compat_notes": "Mentions incompatibility with memory managers and adding STACKS=9,128 to CONFIG.SYS if lockups happen; recommends MS-DOS 6",
 		"required_software": {
 			"os": "dos",
-			"os_version": "3.3"
+			"min_os_version": "3.3"
 		}
 	},
 	"California Games": {
@@ -206,10 +207,12 @@
 				"die": ["d", "aux_secondary_button"]
 			}
 		},
-		"compat_notes": "Original readme says Adlib for music and SB for sound effects; also VGA with 256KB VRAM. CPU support all the way up to Pentium",
+		"compat_notes": "Original readme says Adlib for music and SB for sound effects",
 		"required_hardware": {
-			"free_ram": 522240,
-			"cpu": "286"
+			"min_ram": 522240,
+			"min_cpu": "286",
+			"max_cpu": "pentium",
+			"min_graphics": "vga"
 		},
 		"required_software": {
 			"os": "dos"
@@ -270,9 +273,9 @@
 		"year": 1994,
 		"compat_notes": "Menus seem to stutter in DOSBox (fixed in DOSBox-X), in-game seems fine though.Needs SB, SB16, SB Pro, Pro Audio Spectrum, or GUS for sound. Apparently HIMEM.SYS or EMM386 can slow things down, but disabling EMS in DOSBox config doesn't fix the stuttering",
 		"required_hardware": {
-			"free_ram": 2621440,
-			"cpu": "386",
-			"cpu_speed": 33
+			"min_ram": 2621440,
+			"min_cpu": "386",
+			"min_cpu_speed": 33
 		},
 		"required_software": {
 			"os": "dos"
@@ -456,8 +459,9 @@
 		"year": 1994,
 		"compat_notes": "Modem, null modem cable, or IPX for network play; VGA graphics",
 		"required_hardware": {
-			"free_ram": 3670016,
-			"cpu": "386"
+			"min_ram": 3670016,
+			"min_cpu": "386",
+			"min_graphics": "vga"
 		},
 		"required_software": {
 			"os": "dos"
@@ -473,7 +477,7 @@
 		"genre": "Maze",
 		"subgenre": "Digging",
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -487,7 +491,7 @@
 		"category": "Games",
 		"notes": "Part of Adventure Fun-Pak",
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -505,7 +509,7 @@
 		"genre": "Maze",
 		"notes": "Part of Adventure Fun-Pak",
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -520,7 +524,7 @@
 		"clone_of": "Hunt the Wumpus",
 		"notes": "Part of Adventure Fun-Pak",
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -534,7 +538,7 @@
 		"category": "Games",
 		"notes": "Part of Puzzle Fun-Pak",
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -553,7 +557,7 @@
 		"subgenre": "Go",
 		"notes": "Part of Puzzle Fun-Pak",
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -569,7 +573,7 @@
 		"notes": "Part of Puzzle Fun-Pak",
 		"compat_notes": "Can send resulting maze to printer",
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -588,7 +592,7 @@
 		"min_players": 2,
 		"max_players": 2,
 		"required_hardware": {
-			"cpu_speed": 4.77,
+			"max_cpu_speed": 4.77,
 			"for_xt": true
 		},
 		"required_software": {
@@ -637,11 +641,12 @@
 		},
 		"genre": "Rail Shooter",
 		"subgenre": "Flight",
-		"compat_notes": "VGA graphics; recommends 66MHz and 8MB RAM; uses modem for network; also mouse controls",
+		"compat_notes": "Recommends 66MHz and 8MB RAM; uses modem for network; also mouse controls",
 		"required_hardware": {
-			"free_ram": 4194304,
-			"cpu": "486",
-			"cpu_speed": 33
+			"min_ram": 4194304,
+			"min_cpu": "486",
+			"min_cpu_speed": 33,
+			"min_graphics": "vga"
 		},
 		"required_software": {
 			"os": "dos"
@@ -655,15 +660,15 @@
 		"category": "Games",
 		"notes": "Freeware release (Deluxe 1.01) still includes copy protection referring to the manual, which is included as PDF",
 		"genre": "Simulation",
-		"compat_notes": "VGA graphics",
 		"required_hardware": {
-			"free_ram": 655360,
-			"cpu": "386",
-			"cpu_speed": 16
+			"min_ram": 655360,
+			"min_cpu": "386",
+			"min_cpu_speed": 16,
+			"min_graphics": "vga"
 		},
 		"required_software": {
 			"os": "dos",
-			"os_version": "5.0"
+			"min_os_version": "5.0"
 		},
 		"developer": "MicroProse",
 		"publisher": "2K Games",
@@ -674,8 +679,8 @@
 		"category": "Games",
 		"notes": "Included with Steam version",
 		"required_hardware": {
-			"free_ram": 4194304,
-			"cpu": "486"
+			"min_ram": 4194304,
+			"min_cpu": "486"
 		},
 		"required_software": {
 			"os": "dos"
@@ -849,10 +854,11 @@
 		},
 		"genre": "Shooter",
 		"subgenre": "Horizontal",
-		"compat_notes": "SB/GUS/PAS sound, VGA graphics w/256KB VRAM (SVGA w/1MB VRAM recommended), Pentium @ 90MHz w/ 16MB RAM recommended",
+		"compat_notes": "SB/GUS/PAS sound, SVGA w/1MB VRAM & Pentium @ 90MHz w/ 16MB RAM recommended",
 		"required_hardware": {
-			"free_ram": 8388608,
-			"cpu": "486"
+			"min_ram": 8388608,
+			"min_cpu": "486",
+			"min_graphics": "vga"
 		},
 		"required_software": {
 			"os": "dos"

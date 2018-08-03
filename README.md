@@ -73,6 +73,8 @@ I'm not good at examples, okay?
 
 I realise this probably creates confusion with clone_of as below, so, uhh.... bugger. Didn't think that far ahead.  
 
+You should check validate.py because this is probably out of date because I'm lazy.
+
 - creator_code: For Mac: creator code of the game/app; used for identification purposes
 - app_name: Actual filename of the game/app; used for identification purposes where creator_code is ambiguous
 - other_app_names: Other names of the game/app for identification purposes, such as other versions that work the same way

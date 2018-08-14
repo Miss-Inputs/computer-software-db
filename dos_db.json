@@ -1466,5 +1466,41 @@
 		"required_software": {
 			"os": "dos"
 		}
-	}
+	},
+	"Xenophage: Alien Bloodsport": {
+		"app_name": "XPRX.EXE",
+		"category": "Games",
+		"genre": "Fighting",
+		"subgenre": "Versus",
+		"year": 1996,
+		"developer": "Argo Games",
+		"publisher": "Apogee Software",
+		"required_hardware": {
+			"min_cpu": "486DX",
+			"min_cpu_speed": 33,
+			"min_graphics": "vga",
+			"min_ram": 8388608
+		},
+		"notes": "Recommends 486DX @ 66MHz, 16MB RAM, SVGA; uses 4-button gamepad or 2x 2-button joysticks",
+		"required_software": {
+			"os": "dos"
+		},
+		"controls": {
+			"player_1": {
+				"jump": ["up_arrow", "dpad_up"],
+				"crouch": ["down_arrow", "dpad_down"],
+				"move_left": ["left_arrow", "dpad_left"],
+				"move_right": ["right_arrow", "dpad_right"],
+				"weak_punch": ["left_control", "primary_button"],
+				"weak_kick": ["left_alt", "secondary_button"],
+				"strong_punch": ["left_shift", "aux_primary_button"],
+				"strong_kick": ["z", "aux_secondary_button"],
+				"jump_left": ["home", null],
+				"jump_right": ["page_up", null],
+				"crouch_left": ["end", null],
+				"crouch_right": ["page_down", null]
+			}
+		}
+	}	
 }
+

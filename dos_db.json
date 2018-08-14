@@ -1456,5 +1456,15 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Mortal Kombat II (demo)": {
+		"app_name": "MKII.EXE",
+		"category": "Trials",
+		"year": 1994,
+		"developer": "Probe Software",
+		"publisher": "Acclaim",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

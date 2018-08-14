@@ -1446,5 +1446,15 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Aladdin (demo)": {
+		"app_name": "ALADDIN.EXE",
+		"category": "Trials",
+		"year": 1994,
+		"developer": "Virgin",
+		"publisher": "Virgin",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

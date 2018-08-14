@@ -1596,6 +1596,15 @@
 		"developer": "id Software",
 		"publisher": "Apogee Software",
 		"year": 1991
+	},
+	"Sam & Max: Hit the Road (demo)": {
+		"app_name": "SNMDEMO.EXE",
+		"category": "Trials",
+		"genre": "Adventure",
+		"subgenre": "Graphical",
+		"developer": "LucasArts",
+		"publisher": "LucasArts",
+		"year": 1993
 	}
 }
 

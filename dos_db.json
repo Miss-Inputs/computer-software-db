@@ -1333,5 +1333,17 @@
 	"Wolfenstein 3D (shareware)": {
 		"parent": "Wolfenstein 3D",
 		"category": "Trials"
+	},
+	"Wacky Wheels": {
+		"app_name": "WW.EXE",
+		"category": "Games",
+		"genre": "Driving",
+		"subgenre": "Kart",
+		"year": 1994,
+		"developer": "Beavis Soft",
+		"publisher": "Apogee Software",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

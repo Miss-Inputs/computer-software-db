@@ -1308,5 +1308,14 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Amulets and Armor": {
+		"app_name": "AA.BAT",
+		"category": "Games",
+		"genre": "RPG",
+		"subgenre": "Action RPG",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

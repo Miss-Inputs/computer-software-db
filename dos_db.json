@@ -1551,6 +1551,51 @@
 		"publisher": "Metropolis Software House",
 		"notes": "Released as freeware in 2001",
 		"year": 1995
+	},
+	"Commander Keen 1: Marooned on Mars": {
+		"app_name": "KEEN1.EXE",
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"developer": "id Software",
+		"publisher": "Apogee Software",
+		"year": 1990
+	},
+	"Commander Keen 2: The Earth Explodes": {
+		"app_name": "KEEN2.EXE",
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"developer": "id Software",
+		"publisher": "Apogee Software",
+		"year": 1990
+	},
+	"Commander Keen 3: Keen Must Die!": {
+		"app_name": "KEEN3.EXE",
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"developer": "id Software",
+		"publisher": "Apogee Software",
+		"year": 1990
+	},
+	"Commander Keen 4: Secret of the Oracle": {
+		"app_name": "Keen4e.exe",
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"developer": "id Software",
+		"publisher": "Apogee Software",
+		"year": 1991
+	},
+	"Commander Keen 5: The Armageddon Machine": {
+		"app_name": "Keen5e.exe",
+		"category": "Games",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"developer": "id Software",
+		"publisher": "Apogee Software",
+		"year": 1991
 	}
 }
 

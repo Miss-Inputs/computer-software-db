@@ -1415,5 +1415,26 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"Bust-a-Move Again (demo)": {
+		"app_name": "BM2.EXE",
+		"category": "Trials",
+		"year": 1996,
+		"developer": "Taito",
+		"publisher": "Acclaim",
+		"notes": "Can use CD of Saturn version for audio, but not required",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"X-Men: Children of the Atom (demo)": {
+		"app_name": "XMENPC.EXE",
+		"category": "Trials",
+		"year": 1997,
+		"developer": "Capcom",
+		"publisher": "Acclaim",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

@@ -1531,6 +1531,16 @@
 	"Doom (beta) (v0.2)": {
 		"parent": "Doom",
 		"notes": "Feb 4, 1993"
+	},
+	"DreamWeb": {
+		"app_name": "DREAMWEB.EXE",
+		"category": "Games",
+		"genre": "Adventure",
+		"subgenre": "Graphical",
+		"developer": "Creative Reality",
+		"publisher": "Empire Interactive",
+		"notes": "Released as freeware in 2012",
+		"year": 1994
 	}
 }
 

@@ -1501,6 +1501,23 @@
 				"crouch_right": ["page_down", null]
 			}
 		}
-	}	
+	},
+	"SimCity 2000": {
+		"app_name": "SC2VESA.BAT",
+		"category": "Games",
+		"genre": "Simulation",
+		"subgenre": "Construction",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1993
+	},
+	"SimCity Urban Renewal Kit": {
+		"app_name": "URKVESA.BAT",
+		"category": "Applications",
+		"genre": "Game Utility",
+		"developer": "Maxis",
+		"publisher": "Electronic Arts",
+		"year": 1994
+	}
 }
 

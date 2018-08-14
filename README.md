@@ -133,7 +133,7 @@ You should check validate.py because this is probably out of date because I'm la
 - runs_in_window: For Mac and Windows: If true (default false), doesn't actually run in fullscreen. Hmm... how should this interact with resolution stuff?
 - genre: Game genre, though applications can have genres too because I said so (Word Processor, Game Utility, etc) though of course this all isn't consistent
 - subgenre: Game/app subgenre, again arbitrarily defined
-- developer: Developer of this particular version of the game. I feel like it's pointless to list the developer if it's the same company/person, or the publisher is just a company name for one person who is the developer, but eh.
+- developer: Developer of this particular version of the game. I feel like it's pointless to list the developer if the publisher is just a company name for one person who is the developer, but eh.
 - publisher: Publisher of this particular version of the game
 - year: Release year of this particular version of the game, as number... hmm, how to represent some kind of unreleased game? Date it was leaked?
 - compat_notes: Other notes on compatibility, should be displayed to the user

@@ -120,11 +120,12 @@ def check_missing(path, key):
 def check_missing_metadata(path):
 	game_list = read_game_list(path)
 	for game_name, game in game_list.items():
-		for key in {'category', 'genre', 'subgenre', 'year'}:
+		for key in {'category', 'genre', 'subgenre', 'year', 'developer'}:
 			if key not in game:
 				print(path, '->', game_name, 'missing', key)
 		if 'developer' not in game and 'publisher' not in game:
-			print(path, '->', game_name, 'missing developer/publisher')
+			#If developer is specified but publisher is not, I guess that's okay and it's just an indie thing
+			print(path, '->', game_name, 'missing publisher')
 
 if len(sys.argv) > 1:
 	arg = sys.argv[1]

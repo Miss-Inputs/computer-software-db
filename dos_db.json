@@ -3,6 +3,7 @@
 		"app_name": "EDIT.EXE",
 		"category": "Applications",
 		"genre": "Text Editor",
+		"developer": "Microsoft",
 		"publisher": "Microsoft",
 		"year": 1991,
 		"required_software": {
@@ -14,6 +15,7 @@
 		"category": "Applications",
 		"genre": "IDE",
 		"subgenre": "Basic",
+		"developer": "Microsoft",
 		"publisher": "Microsoft",
 		"year": 1991,
 		"required_software": {
@@ -87,6 +89,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1991
 	},
@@ -141,6 +144,7 @@
 		"app_name": "menace1.bat",
 		"category": "Games",
 		"notes": "Command line options: /COMP (SVGA compatibility), /LATCHPEL (ATI SVGA compat), /NOAL (Don't detect adlib), /NOJOYS (Don't detect joystick), /NOMOUSE (don't detect mouse, which is only used for menus)",
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1993,
 		"min_players": 1,
@@ -163,6 +167,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Epyx",
 		"publisher": "Epyx",
 		"year": 1988
 	},
@@ -174,6 +179,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Epyx",
 		"publisher": "Epyx",
 		"year": 1990
 	},
@@ -269,6 +275,7 @@
 			}
 		},
 		"genre": "Run & Gun",
+		"developer": "Epic MegaGames",
 		"publisher": "Epic MegaGames",
 		"year": 1994,
 		"compat_notes": "Menus seem to stutter in DOSBox (fixed in DOSBox-X), in-game seems fine though.Needs SB, SB16, SB Pro, Pro Audio Spectrum, or GUS for sound. Apparently HIMEM.SYS or EMM386 can slow things down, but disabling EMS in DOSBox config doesn't fix the stuttering",
@@ -291,6 +298,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "United Pixtures",
 		"publisher": "United Pixtures",
 		"year": 1993,
 		"adult": true
@@ -301,6 +309,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1990
 	},
@@ -310,6 +319,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1988
 	},
@@ -319,6 +329,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1988
 	},
@@ -328,6 +339,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1989
 	},
@@ -339,6 +351,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software"
 	},
 	"Kingdom of Kroz": {
@@ -347,6 +360,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1987
 	},
@@ -356,6 +370,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1990
 	},
@@ -365,6 +380,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1990
 	},
@@ -374,6 +390,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1990
 	},
@@ -383,6 +400,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1990
 	},
@@ -392,6 +410,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1990
 	},
@@ -401,6 +420,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1990
 	},
@@ -412,17 +432,20 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Landmark Research",
 		"publisher": "Landmark Research"
 	},
 	"The Adventures of Maddog Williams in The Dungeons of Duridian": {
 		"app_name": "MDWVGA.EXE",
 		"category": "Games",
-		"notes": "Freeware version disables copy protection, you can respond to the wizard asking you about manual things with anything",
+		"genre": "Adventure",
+		"notes": "Freeware version disables copy protection, you can respond to the wizard asking you about manual things with anything. Genre is weird, sort of RPG/graphical adventure hybrid",
 		"min_players": 1,
 		"max_players": 1,
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Game Crafters",
 		"publisher": "Game Crafters",
 		"year": 1992
 	},
@@ -685,6 +708,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Vblank Entertainment",
 		"publisher": "Vblank Entertainment",
 		"year": 2015
 	},
@@ -696,6 +720,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Micro Focus",
 		"publisher": "Micro Focus"
 	},
 	"Sango Fighter": {
@@ -743,6 +768,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1987
 	},
@@ -755,6 +781,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1993
 	},
@@ -782,6 +809,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1986
 	},
@@ -821,6 +849,7 @@
 		"required_software": {
 			"os": "dos"
 		},
+		"developer": "Apogee Software",
 		"publisher": "Apogee Software",
 		"year": 1988
 	},
@@ -994,6 +1023,7 @@
 		"app_name": "JUKEBOX.EXE",
 		"category": "Applications",
 		"genre": "Music Player",
+		"developer": "AdLib",
 		"publisher": "AdLib",
 		"year": 1987
 	},
@@ -1025,6 +1055,7 @@
 				"load": ["f3", null]
 			}
 		},
+		"developer": "xLand Games",
 		"publisher": "xLand Games",
 		"year": 2006
 	},
@@ -1046,6 +1077,7 @@
 				"toggle_sound": ["f1", null]
 			}
 		},
+		"developer": "xLand Games",
 		"publisher": "xLand Games",
 		"year": 2006
 	},
@@ -1067,6 +1099,7 @@
 				"toggle_sound": ["f7", null]
 			}
 		},
+		"developer": "xLand Games",
 		"publisher": "xLand Games",
 		"year": 2006
 	},
@@ -1124,6 +1157,7 @@
 		"app_name": "MMXDEMO.EXE",
 		"category": "Trials",
 		"genre": "Run & Gun",
+		"developer": "Rozner Labs",
 		"publisher": "Capcom",
 		"year": 1995,
 		"required_software": {
@@ -1147,6 +1181,7 @@
 		"category": "Trials",
 		"genre": "Platform",
 		"subgenre": "2D",
+		"developer": "Gremlin Graphics",
 		"publisher": "Gremlin Graphics",
 		"year": 1993,
 		"required_software": {
@@ -1158,7 +1193,7 @@
 		"category": "Games",
 		"genre": "Puzzle",
 		"subgenre": "Drop",
-		"publisher": "Vadim Gerasimov",
+		"developer": "Vadim Gerasimov",
 		"year": 1986,
 		"notes": "The OG Tetris (other than the Elektronika 60 prototype)",
 		"required_software": {
@@ -1168,7 +1203,7 @@
 	"Snarf": {
 		"app_name": "snarf.exe",
 		"category": "Games",
-		"publisher": "Everett Kaser",
+		"developer": "Everett Kaser",
 		"year": 1993,
 		"required_software": {
 			"os": "dos"
@@ -1187,6 +1222,7 @@
 	"Clyde's Revenge": {
 		"app_name": "REVENGE.EXE",
 		"category": "Games",
+		"developer": "Moonlite Software",
 		"publisher": "Moonlite Software",
 		"required_software": {
 			"os": "dos"
@@ -1205,6 +1241,7 @@
 	"Clyde's Adventure Episode 1": {
 		"app_name": "CLYDE1.EXE",
 		"category": "Games",
+		"developer": "Moonlite Software",
 		"publisher": "Moonlite Software",
 		"year": 1992,
 		"required_software": {
@@ -1227,6 +1264,7 @@
 	"Cybersphere": {
 		"app_name": "CYBER.EXE",
 		"category": "Games",
+		"developer": "Psycon Software",
 		"publisher": "Psycon Software",
 		"year": 1996,
 		"clone_of": "Breakout",
@@ -1237,6 +1275,7 @@
 	"Cybersphere Plus": {
 		"app_name": "CYBPLUS.EXE",
 		"category": "Games",
+		"developer": "Psycon Software",
 		"publisher": "Psycon Software",
 		"year": 1997,
 		"clone_of": "Breakout",
@@ -1256,6 +1295,7 @@
 	"Jill of the Jungle Episode 1": {
 		"app_name": "JILL.EXE",
 		"category": "Games",
+		"developer": "Epic MegaGames",
 		"publisher": "Epic MegaGames",
 		"year": 1992,
 		"required_software": {
@@ -1265,6 +1305,7 @@
 	"Jump 'n' Bump": {
 		"app_name": "jumpbump.exe",
 		"category": "Games",
+		"developer": "Brainchild Design",
 		"publisher": "Brainchild Design",
 		"year": 1998,
 		"required_software": {
@@ -1284,6 +1325,7 @@
 	"Cool Spot (demo)": {
 		"app_name": "SPOT.EXE",
 		"category": "Trials",
+		"developer": "Virgin",
 		"publisher": "Virgin",
 		"year": 1994,
 		"required_software": {
@@ -1303,6 +1345,7 @@
 	"Backlash": {
 		"app_name": "BL.EXE",
 		"category": "Games",
+		"developer": "Sanctuary Software Studio",
 		"publisher": "Sanctuary Software Studio",
 		"year": 1994,
 		"required_software": {

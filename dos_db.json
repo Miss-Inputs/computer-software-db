@@ -1518,6 +1518,19 @@
 		"developer": "Maxis",
 		"publisher": "Electronic Arts",
 		"year": 1994
+	},
+	"Doom": {
+		"app_name": "DOOM.EXE",
+		"category": "Games",
+		"genre": "Shooter",
+		"subgenre": "FPS",
+		"developer": "id Software",
+		"publisher": "id Software",
+		"year": 1993
+	},
+	"Doom (beta) (v0.2)": {
+		"parent": "Doom",
+		"notes": "Feb 4, 1993"
 	}
 }
 

@@ -1224,6 +1224,7 @@
 		"category": "Games",
 		"developer": "Moonlite Software",
 		"publisher": "Moonlite Software",
+		"year": 1995,
 		"required_software": {
 			"os": "dos"
 		}
@@ -1357,6 +1358,10 @@
 		"category": "Games",
 		"genre": "RPG",
 		"subgenre": "Action RPG",
+		"developer": "United Software Artists",
+		"publisher": "United Software Artists",
+		"year": 1997,
+		"notes": "Re-released as freeware in 2013 by original developers (as Exiguus Entertainment)",
 		"required_software": {
 			"os": "dos"
 		}

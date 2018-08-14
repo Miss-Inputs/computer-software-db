@@ -1541,6 +1541,16 @@
 		"publisher": "Empire Interactive",
 		"notes": "Released as freeware in 2012",
 		"year": 1994
+	},
+	"TeenAgent": {
+		"app_name": "TEENAGNT.EXE",
+		"category": "Games",
+		"genre": "Adventure",
+		"subgenre": "Graphical",
+		"developer": "Metropolis Software House",
+		"publisher": "Metropolis Software House",
+		"notes": "Released as freeware in 2001",
+		"year": 1995
 	}
 }
 

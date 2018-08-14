@@ -1394,6 +1394,10 @@
 			"os": "dos"
 		}
 	},
+	"Wacky Wheels (shareware)": {
+		"parent": "Wacky Wheels",
+		"category": "Trials"
+	},
 	"The Incredible Machine (demo)": {
 		"app_name": "TIM.EXE",
 		"category": "Trials",

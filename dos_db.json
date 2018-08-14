@@ -1436,5 +1436,15 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"AstroFire": {
+		"app_name": "astro.exe",
+		"category": "Games",
+		"year": 1994,
+		"developer": "ORT Software",
+		"publisher": "ORT Software",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

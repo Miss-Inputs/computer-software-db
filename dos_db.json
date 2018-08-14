@@ -1393,5 +1393,27 @@
 		"required_software": {
 			"os": "dos"
 		}
+	},
+	"The Incredible Machine (demo)": {
+		"app_name": "TIM.EXE",
+		"category": "Trials",
+		"genre": "Puzzle",
+		"year": 1993,
+		"developer": "Jeff Tunnell",
+		"publisher": "Sierra",
+		"required_software": {
+			"os": "dos"
+		}
+	},
+	"The Incredible Machine 2 (demo)": {
+		"app_name": "TIM2.EXE",
+		"category": "Trials",
+		"genre": "Puzzle",
+		"year": 1994,
+		"developer": "Jeff Tunnell",
+		"publisher": "Sierra",
+		"required_software": {
+			"os": "dos"
+		}
 	}
 }

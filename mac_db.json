@@ -459,7 +459,7 @@
 	},
 	"Cyberopoly": {
 		"app_name": "Cyberopoly",
-		"creator_code": "¥∫r",
+		"creator_code": "ç¥∫r",
 		"arch": "68k",
 		"category": "Games",
 		"genre": "Tabletop",
@@ -468,10 +468,12 @@
 		"year": 2000,
 		"developer": "John Mauro",
 		"min_players": 1,
-		"max_players": 6
+		"max_players": 6,
+		"runs_in_window": true,
 	},
 	"Cyberopoly: The Alfred University Edition": {
 		"app_name": "The Alfred University Edition",
+		"creator_code": "a¥∫r"
 		"parent": "Cyberopoly"
 	},
 	"Cythera": {

@@ -469,7 +469,7 @@
 		"developer": "John Mauro",
 		"min_players": 1,
 		"max_players": 6,
-		"runs_in_window": true,
+		"runs_in_window": true
 	},
 	"Cyberopoly: The Alfred University Edition": {
 		"app_name": "The Alfred University Edition",

@@ -1646,6 +1646,15 @@
 		"developer": "Origin Systems",
 		"publisher": "Electronic Arts",
 		"year": 1998
+	},
+	"Rayman (demo)": {
+		"app_name": "RAYMAN.EXE",
+		"category": "Trials",
+		"genre": "Platform",
+		"subgenre": "2D",
+		"developer": "Ubisoft",
+		"publisher": "Ubisoft",
+		"year": 1995
 	}
 }
 

@@ -1683,6 +1683,17 @@
 		"developer": "Parallax Software",
 		"publisher": "Interplay",
 		"year": 1995
+	},
+	"The Elder Scrolls I: Arena": {
+		"app_name": "ARENA.BAT",
+		"category": "Games",
+		"genre": "RPG",
+		"subgenre": "Action RPG",
+		"developer": "Bethesda",
+		"publisher": "Bethesda",
+		"year": 1994,
+		"notes": "Contains copy protection by way of asking you strange questions; as this is now a freeware release, it provides passwords.txt",
+		"compat_notes": "May need -delay parameter to adjust speed"
 	}
 }
 

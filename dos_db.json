@@ -1666,6 +1666,14 @@
 		"developer": "Ubisoft",
 		"publisher": "Ubisoft",
 		"year": 1996
+	},
+	"Beauty and the Beast (demo)": {
+		"app_name": "DEMO.COM",
+		"category": "Trials",
+		"genre": "Puzzle",
+		"developer": "Infogrames",
+		"publisher": "Disney",
+		"year": 1992
 	}
 }
 

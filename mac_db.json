@@ -1541,5 +1541,14 @@
 		"genre": "Holiday",
 		"developer": "Tiger Technologies",
 		"publisher": "Tiger Technologies"
+	},
+	"Monopoly": {
+		"app_name": "Monopoly 4.0",
+		"creator_code": "MPLY",
+		"arch": "68k",
+		"category": "Games",
+		"developer": "Thomas E. Fosson",
+		"year": 1986,
+		"notes": "Almost certainly unlicensed port. Sort of runs in a window but it seems like it was designed to run fullscreen on ancient Macs"
 	}
 }

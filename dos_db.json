@@ -1656,6 +1656,16 @@
 		"developer": "Ubisoft",
 		"publisher": "Ubisoft",
 		"year": 1995
+	},
+	"Rayman Junior (demo)": {
+		"app_name": "RUNDEMO.BAT",
+		"category": "Trials",
+		"genre": "Edutainment",
+		"subgenre": "Maths & Literacy",
+		"notes": "Known as about 10 different other names, thanks I hate it",
+		"developer": "Ubisoft",
+		"publisher": "Ubisoft",
+		"year": 1996
 	}
 }
 

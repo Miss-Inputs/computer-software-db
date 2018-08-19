@@ -123,7 +123,7 @@
 	},
 	"Arkanoid": {
 		"app_name": "Arkanoid",
-		"creator_code": "????",
+		"creator_code": "NOID",
 		"arch": "68k",
 		"category": "Games",
 		"clone_of": "Breakout",

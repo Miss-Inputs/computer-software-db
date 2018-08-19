@@ -663,7 +663,7 @@
 				"pause": ["pause_break", "start"]
 			}
 		},
-		"genre": "Rail Shooter",
+		"genre": "Shooter",
 		"subgenre": "Flight",
 		"compat_notes": "Recommends 66MHz and 8MB RAM; uses modem for network; also mouse controls",
 		"required_hardware": {

@@ -480,6 +480,7 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "RPG",
+		"subgenre": "Turn Based RPG"
 		"developer": "Glenn Andreas",
 		"publisher": "Ambrosia Software",
 		"year": 1999
@@ -1178,6 +1179,7 @@
 		"arch": "68k",
 		"category": "Games",
 		"genre": "RPG",
+		"subgenre": "Turn Based RPG",
 		"developer": "Fantasoft",
 		"publisher": "Fantasoft",
 		"year": 1999

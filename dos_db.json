@@ -439,6 +439,7 @@
 		"app_name": "MDWVGA.EXE",
 		"category": "Games",
 		"genre": "Adventure",
+		"subgenre": "Graphical",
 		"notes": "Freeware version disables copy protection, you can respond to the wizard asking you about manual things with anything. Genre is weird, sort of RPG/graphical adventure hybrid",
 		"min_players": 1,
 		"max_players": 1,

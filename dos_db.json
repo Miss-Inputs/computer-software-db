@@ -1609,6 +1609,43 @@
 		"developer": "LucasArts",
 		"publisher": "LucasArts",
 		"year": 1993
+	},
+	"Ultima IV: Quest of the Avatar": {
+		"app_name": "ULTIMA.COM",
+		"category": "Games",
+		"genre": "RPG",
+		"subgenre": "Turn Based RPG",
+		"developer": "Origin Systems",
+		"publisher": "Electronic Arts",
+		"year": 1987
+	},
+	"Ultima: Worlds of Adventure 2: Martian Dreams": {
+		"app_name": "MARTIAN.EXE",
+		"category": "Games",
+		"genre": "RPG",
+		"subgenre": "Turn Based RPG",
+		"developer": "Origin Systems",
+		"publisher": "Electronic Arts",
+		"year": 1991
+	},
+	"Akalabeth: World of Doom": {
+		"app_name": "AKLABETH.EXE",
+		"category": "Games",
+		"genre": "RPG",
+		"subgenre": "Turn Based RPG",
+		"notes": "GOG release, oddly mysterious (release date of this version cannot be 1980 as the IBM PC wasn't released yet, but it's what the GOG store page says), seems to be a straight port from the Apple II version via BASIC source",
+		"developer": "Richard Garriott",
+		"publisher": "California Pacific",
+		"year": 1980
+	},
+	"Akalabeth: World of Doom (Ultima Collection)": {
+		"app_name": "AK.EXE",
+		"category": "Games",
+		"genre": "RPG",
+		"subgenre": "Turn Based RPG",
+		"developer": "Origin Systems",
+		"publisher": "Electronic Arts",
+		"year": 1998
 	}
 }
 

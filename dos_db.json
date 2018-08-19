@@ -1674,6 +1674,15 @@
 		"developer": "Infogrames",
 		"publisher": "Disney",
 		"year": 1992
+	},
+	"Descent II (demo)": {
+		"app_name": "D2DEMO.EXE",
+		"category": "Trials",
+		"genre": "Shooter",
+		"subgenre": "Flight"
+		"developer": "Parallax Software",
+		"publisher": "Interplay",
+		"year": 1995
 	}
 }
 

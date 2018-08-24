@@ -98,7 +98,7 @@
 		"category": "Games",
 		"notes": "Freeware release with patches from DOSBox team. Also known as Halloween Harry (1993), not sure if that would have a different exe? Joystick controls in case I decide to put those in the controls object: Movement as expected; button 1 = fire, button 2 = jetpack thrust, button 3 = cycle weapons, hold button 4 + up or down = pan camera. Toggle display is between radar (minimap) and weapons (ammo status)",
 		"developer": "Interactive Binary Illusions/SubZero Software",
-		"publisher": "Apogee Sotware",
+		"publisher": "Apogee Software",
 		"year": 1994,
 		"min_players": 1,
 		"max_players": 1,

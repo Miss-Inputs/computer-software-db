@@ -275,8 +275,8 @@
 			}
 		},
 		"genre": "Run & Gun",
-		"developer": "Epic MegaGames",
-		"publisher": "Epic MegaGames",
+		"developer": "Epic Games",
+		"publisher": "Epic Games",
 		"year": 1994,
 		"compat_notes": "Menus seem to stutter in DOSBox (fixed in DOSBox-X), in-game seems fine though.Needs SB, SB16, SB Pro, Pro Audio Spectrum, or GUS for sound. Apparently HIMEM.SYS or EMM386 can slow things down, but disabling EMS in DOSBox config doesn't fix the stuttering",
 		"required_hardware": {
@@ -479,7 +479,7 @@
 		"genre": "Fighting",
 		"subgenre": "Versus",
 		"developer": "Diversions Entertainment",
-		"publisher": "Epic MegaGames",
+		"publisher": "Epic Games",
 		"year": 1994,
 		"compat_notes": "Modem, null modem cable, or IPX for network play; VGA graphics",
 		"required_hardware": {
@@ -676,7 +676,7 @@
 			"os": "dos"
 		},
 		"developer": "Neural Storm Entertainment",
-		"publisher": "Epic MegaGames",
+		"publisher": "Epic Games",
 		"year": 1995
 	},
 	"Sid Meier's Railroad Tycoon": {
@@ -1297,8 +1297,8 @@
 	"Jill of the Jungle Episode 1": {
 		"app_name": "JILL.EXE",
 		"category": "Games",
-		"developer": "Epic MegaGames",
-		"publisher": "Epic MegaGames",
+		"developer": "Epic Games",
+		"publisher": "Epic Games",
 		"year": 1992,
 		"required_software": {
 			"os": "dos"
